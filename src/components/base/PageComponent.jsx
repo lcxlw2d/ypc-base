@@ -1,5 +1,8 @@
 import {resetLoadingNum} from '../../redux/store/reducers';
-import PureComponent from './PureComponent'
+console.log(PureComponent,typeof PureComponent)
+
+// import PureComponent from './PureComponent'
+console.log(PureComponent.default,typeof PureComponent)
 
 class PageComponent extends PureComponent {
 

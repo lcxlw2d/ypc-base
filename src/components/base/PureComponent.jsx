@@ -103,5 +103,5 @@ class PureComponent extends React.Component {
 PureComponent.contextTypes = {
   store: PropTypes.object
 };
-
+console.log(PureComponent,typeof PureComponent)
 export default PureComponent;

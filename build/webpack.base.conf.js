@@ -71,8 +71,8 @@ module.exports = {
             React:"react",
             ReactDOM:"react-dom",
             systemApi:path.resolve(__dirname,"../src/utils/systemApi.js"),
-            PureComponent:path.resolve(__dirname,"../src/components/base/PureComponent"),
-            PageComponent:path.resolve(__dirname,"../src/components/base/PageComponent")
+            PureComponent:[path.resolve(__dirname,"../src/components/base/PureComponent.jsx"),'default'],
+            PageComponent:[path.resolve(__dirname,"../src/components/base/PageComponent.jsx"),'default']
         })
     ]
 };
