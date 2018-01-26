@@ -1,0 +1,87 @@
+.header {
+    width: 100%;
+    background-color: #F5F5F5;
+    height: 39px;
+}
+.header_innerbox {
+    margin: 0 10px;
+    height: 100%;
+    position: relative;
+    line-height: 39px;
+}
+.record_search {
+    position: relative;
+}
+.record_choose{
+	position:absolute;
+	left:0;
+    top: 4px;
+    right:40px;
+    height: 32px;
+	border-radius:4px;
+	background:#fff;
+}
+.record_cancel{
+	float:right;
+	width: 32px;
+    text-align: right;
+}
+.record_cancel a{
+	color:#ff5555;
+}
+.record_innerbox{
+	position:relative;
+}
+.record_cs{
+	width:28%;
+	float:left;
+	height: 32px;
+	position:relative;
+}
+.record_cs.local{
+	width:35%;
+}
+.record_text {
+    position: absolute;
+    left: 28%;
+    right: 0;
+    top: 0;
+    line-height: 1;
+}
+.record_text.local{
+    left:35%;
+}
+.record_text input[type=text] {
+    width: 85%;
+    height: 30px;
+    background: none;
+    border: none;
+    line-height: 30px;
+    color: #999;
+}
+.record_text .search{
+    position: absolute;
+    right:0px;
+    top:0;
+    width:32px;
+    height: 32px;
+    background:url("./images/work/client/server/search.png") no-repeat center;
+    background-size: 20px;
+}
+.select{
+    -webkit-appearance: none;
+    display: block;
+    border: none;
+    border-right: 1px solid #ddd;
+    border-radius: 0;
+    padding-right: 26px;
+    background: url(./images/work/client/record/arrow06.png) no-repeat 52px 9px;
+    background-size: 12px;
+    font-size: 14px;
+    height: 31px;
+    padding-left: 7px;
+    padding-right: 22px;
+}
+.local .select{
+    background-position: 81px 9px;
+}

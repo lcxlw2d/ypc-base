@@ -1,0 +1,146 @@
+.single_mot{
+	border-bottom:1px solid #eee;
+	position:relative;
+	overflow:hidden;
+	min-height:75px;
+	background:#fff;
+
+	&.touch{
+		background-color: #eee;
+	}
+
+	.mot_innerbox{
+		padding: 10px;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+
+		.mot_img{
+			float:left;
+			width:50px;
+		    height:50px;
+			margin-right:10px;
+		    background-repeat: no-repeat;
+			background-position: center;
+		    background-size: 40px;
+
+			/*资金异动*/
+			&.mot50046{
+			    background-image:url(./images/work/todo/fund.png);
+			}
+			/*新股中签*/
+			&.mot50033{
+			    background-image:url(./images/work/todo/newstock.png);
+			}
+			/*新股中签缴款*/
+			&.mot50053{
+			    background-image:url(./images/work/todo/stockfee.png);
+			}
+			/*生日提醒*/
+			&.mot50051{
+			    background-image:url(./images/work/todo/birthday.png);
+			}
+			/*融资融券到期*/
+			&.mot45,
+			&.mot50052{
+			    background-image:url(./images/work/todo/margin.png);
+			}
+			/*开户首月无资金转入*/
+			&.mot50032{
+			    background-image:url(./images/work/todo/nomoneyin.png);
+			}
+			/*下次服务备忘提醒*/
+			&.mot41,
+			&.mot50054{
+			    background-image:url(./images/work/todo/nexttip.png);
+			}
+			/*个股期权模拟开户申请*/
+			&.mot44{
+			    background-image:url(./images/work/todo/apply.png);
+			}
+			/*证件有效期到期提醒*/
+			&.mot50042{
+			    background-image:url(./images/work/todo/deadline.png);
+			}
+			/*融资融券担保比例预警*/
+			&.mot50029{
+			    background-image:url(./images/work/todo/marginratio.png);
+			}
+			/*约定式购回履约保障比例提醒*/
+			&.mot50030{
+			    background-image:url(./images/work/todo/buyratio.png);
+			}
+			/*分红提示*/
+			&.mot50041{
+			    background-image:url(./images/work/todo/profit.png);
+			}
+			/*退市提示*/
+			&.mot50043{
+			    background-image:url(./images/work/todo/quit.png);
+			}
+			/*股票配股提示*/
+			&.mot50048{
+			    background-image:url(./images/work/todo/stockdeli.png);
+			}
+			/*增发提示*/
+			&.mot50049{
+			    background-image:url(./images/work/todo/stockadd.png);
+			}
+			/*客户流失预警提醒*/
+			&.mot50055{
+			    background-image:url(./images/work/todo/clientflow.png);
+			}
+			/*客户流失预警提醒*/
+			&.mot50056{
+			    background-image:url(./images/work/todo/opentip.png);
+			}
+			&.mot60001{
+			    background-image:url(./images/work/todo/approve.png);
+			}
+			&.mot60002{
+			    background-image:url(./images/work/todo/message.png);
+			}
+		}
+
+
+		.mot_cont{
+			margin-left:60px;
+
+			.mot_inner01{
+				line-height:18px;
+
+				h3{
+					margin-bottom: 3px;
+
+					.title{
+					    color:#333;
+						font-weight: normal;
+						height: 18px;
+					    overflow: hidden;
+					    display: inline-block;
+					    text-overflow: ellipsis;
+					    white-space: nowrap;
+					    max-width: 100%;
+					}
+				}
+
+				p{
+					overflow:hidden;
+					text-overflow:ellipsis;
+					white-space:nowrap;
+				}
+
+				.time{
+					color:#999;
+					font-size:12px;
+					font-weight:100;
+					float:right
+				}
+			}
+		}
+
+	}
+
+}

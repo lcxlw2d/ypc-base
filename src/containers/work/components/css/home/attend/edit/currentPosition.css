@@ -1,0 +1,18 @@
+.locationbox{
+	background:url(./images/work/home/icon_location.png) no-repeat #f1f6f8 10px 50%;
+	background-size:14px;
+	padding-left:32px;
+	font-size:13px;
+	height:32px;
+	line-height:32px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	color:#666;
+	padding-right:10px;
+	border-bottom:1px solid #cfd9dc
+}
+
+.ml5{
+    margin-left: 10px;
+}

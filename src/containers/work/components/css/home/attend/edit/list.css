@@ -1,0 +1,30 @@
+.frame{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 257px;
+    bottom: 0;
+}
+
+.item{
+    border-bottom: 1px solid #eee;
+    padding: 12px 10px;
+    line-height: 20px;
+}
+
+.ml5{
+    margin-left: 15px;
+}
+
+.dot{
+    float: right;
+    width: 20px;
+    height: 20px;
+    background: url(./images/work/home/checkbox.png) no-repeat;
+    background-size: 20px;
+    margin-right: 9px;
+}
+
+.dot.selected{
+    background-image:url(./images/work/home/checkbox_sel.png);
+}

@@ -1,0 +1,38 @@
+.complaint {
+    margin-top: 40%;
+    overflow: hidden;
+    background: url(./images/work/me/bg07.png) no-repeat top #fff;
+    background-size: 100%;
+    width: 80%;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.complaint .pp_p02{
+	color: #fff;
+	font-size:16px;
+    display: block;
+    width: 85%;
+    padding-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pp_btns2{
+	padding-bottom:20px;
+	margin-top:120px;
+	width:85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pp_btns2 a{
+	display:block;
+	width:46%;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	border:1px solid #2da8e1;
+	border-radius:10px;
+	color:#2da8e1;
+	background-color:#fff;
+	width:100%
+}

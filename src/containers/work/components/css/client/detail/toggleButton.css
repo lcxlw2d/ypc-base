@@ -1,0 +1,26 @@
+.box{
+    display:inline-block;
+    height:26px;
+    width:46px;
+    margin-top:4px;
+    border-radius: 15px;
+    background:#d3d3d3;
+    position: relative;
+    transition: background 0.3s ease-out;
+}
+.box.open{
+    background:#3492e9;
+}
+.button{
+    width:22px;
+    height:22px;
+    border-radius: 13px;
+    background:#fff;
+    position:absolute;
+    top:2px;
+    left:3px;
+    transition: left 0.2s ease-out;
+}
+.box.open .button{
+    left:21px;
+}

@@ -1,0 +1,49 @@
+.tipFrame{
+    width: 94%;
+    border: 1px solid #2da8e1;
+    position: absolute;
+    border-radius: 10px;
+    left: 50%;
+    padding-bottom: 5px;
+    background: url(./images/work/home/icon_tip_b.png) no-repeat 10px #FFF;
+    background-size: 32px;
+    margin-left: -47%;
+    top: 42px;
+    box-shadow: 4px 4px 0 rgba(0,0,0,.1);
+    z-index: 1;
+}
+.tipFrame p {
+    margin: 10px 10px 10px 50px;
+    line-height: 18px;
+}
+.tipFrame .tiptop {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    top: -20px;
+    margin-left: -10px;
+    z-index: 2;
+}
+.tipFrame .arrow1,
+.tipFrame .arrow2 {
+    width: 0;
+    height: 0;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 5;
+    border-top: 10px transparent dashed;
+    border-left: 10px transparent dashed;
+    border-right: 10px transparent dashed;
+    border-bottom: 10px white solid;
+    overflow: hidden;
+}
+.tipFrame .arrow1 {
+    border-bottom: 10px #2da8e1 solid;
+}
+.tipFrame .arrow2 {
+    top: 1px;
+    border-bottom: 10px white solid;
+}

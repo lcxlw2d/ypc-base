@@ -1,0 +1,16 @@
+.btn_out {
+    background-color: #fff;
+    padding: 15px 10px 20px 10px;
+}
+
+.btn_out a {
+    display: block;
+    border: 1px solid #3492e9;
+    border-radius: 5px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #3492e9;
+    background-color: #fff;
+}

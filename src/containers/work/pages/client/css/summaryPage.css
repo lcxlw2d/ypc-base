@@ -1,0 +1,10 @@
+.content{
+    position: fixed;
+    top: 0;
+    bottom: 59px;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling : touch; 
+}

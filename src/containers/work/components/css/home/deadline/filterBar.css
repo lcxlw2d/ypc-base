@@ -1,0 +1,110 @@
+.product_choose_popup{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top:112px;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 99;
+    height:0;
+    overflow: hidden;
+}
+.product_choose_popup.show{
+    height:auto;
+}
+.pro_inner_popup{
+	overflow: hidden;
+	background:#fff;
+	padding:10px;
+    height:0;
+    transition: height 300ms;
+}
+.pro_inner_popup.show{
+	height:410px;
+}
+.pro_inner_popup .choose_list ul.pro_ul{
+    padding:0;
+	height: 295px;
+    overflow: auto;
+}
+.pro_inner_popup .choose_list ul li{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background: #f8f8f8;
+    border: 1px solid #f8f8f8;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding:8px 10px;
+}
+.pro_inner_popup .choose_list ul li.on{
+	background:url(./images/work/home/icon_product_current.png) no-repeat top right #f4faff;
+	background-size:24px;
+    border: 1px solid #3492e9;
+}
+.pro_time{
+	margin-bottom:5px;
+	overflow:hidden;
+	border-bottom:1px solid #ddd;
+	padding-bottom:10px;
+}
+.pro_time span{
+	float:left;
+	line-height:32px;
+}
+.pro_time a{
+	display:block;
+	float:left;
+	margin-left:10px;
+	border:1px solid #ddd;
+	padding:8px 12px;
+	border-radius:5px;
+}
+.pro_time a.on{
+	border:1px solid #3492e9;
+	color:#3492e9;
+	background:#f4faff;
+}
+.pro_btns{
+	clear:both;
+	padding-top:10px;
+}
+.pro_btns:after{
+    content:"";
+    display: block;
+    clear:both;
+}
+.pro_btns a{
+	width:48%;
+	text-align:center;
+	border-radius:5px;
+	padding:12px 0;
+	font-size:15px;
+}
+.pro_btns a.btn_reset{
+	border:1px solid #ddd;
+	float:left;
+}
+.pro_btns a.btn_confirm{
+	border:1px solid #0e6bc0;
+	background:#3492e9;
+	color:#fff;
+	float:right
+}
+
+.noData{
+    height:80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 17px;
+    color: #777;
+}
+
+@media screen and (max-width: 320px){
+    .pro_inner_popup .choose_list ul.pro_ul{
+    	height: 235px;
+    }
+    .pro_inner_popup.show{
+    	height:340px;
+    }
+}

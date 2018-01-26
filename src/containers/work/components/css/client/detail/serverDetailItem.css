@@ -1,0 +1,28 @@
+.recruit_div {
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+    line-height: 30px;
+    overflow: hidden;
+    position: relative;
+}
+.recruit_div_20 {
+    width: 28%;
+    float: left;
+}
+.icon{
+    width: 18px;
+    height: 18px;
+    margin-top: 5px;
+    float: left;
+    margin-right: 8px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.recruit_div_60.c6 {
+    width: 67%;
+    float: right;
+}
+.right{
+    float:right;
+    line-height: 1;
+}

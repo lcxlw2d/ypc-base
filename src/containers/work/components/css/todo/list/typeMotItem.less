@@ -1,0 +1,96 @@
+.icon{
+	text-align:center;
+	float:left;
+	width:25%;
+	padding-bottom:15px;
+	padding-top:55px;
+    position: relative;
+    margin-top: 10px;
+	white-space: nowrap;
+	background-size:34px;
+	background-repeat: no-repeat;
+	background-position: 50% 10px;
+
+	i{
+	    width: 16px;
+	    height: 16px;
+	    position: absolute;
+	    top: 10px;
+	    right: 10px;
+	    background:no-repeat;
+	    background-size: 100%;
+		&.on{
+		    background-image:url(./images/work/todo/icon_mot_ok.png);
+		}
+		&.plus{
+		    background-image:url(./images/work/todo/icon_mot_plus.png);
+		}
+		&.del{
+		    background-image:url(./images/work/todo/icon_mot_minus.png);
+		}
+	}
+
+	&.newstock{
+		background-image:url(./images/work/todo/newstock.png);
+	}
+	&.stockfee{
+		background-image:url(./images/work/todo/stockfee.png);
+	}
+	&.margin{
+		background-image:url(./images/work/todo/margin.png);
+	}
+	&.fund{
+		background-image:url(./images/work/todo/fund.png);
+	}
+	&.birthday{
+		background-image:url(./images/work/todo/birthday.png);
+	}
+	&.nomoneyin{
+		background-image:url(./images/work/todo/nomoneyin.png);
+	}
+	&.nexttip{
+		background-image:url(./images/work/todo/nexttip.png);
+	}
+	&.deadline{
+		background-image:url(./images/work/todo/deadline.png);
+	}
+	&.stockadd{
+		background-image:url(./images/work/todo/stockadd.png);
+	}
+	&.stockdeli{
+		background-image:url(./images/work/todo/stockdeli.png);
+	}
+	&.profit{
+		background-image:url(./images/work/todo/profit.png);
+	}
+	&.quit{
+		background-image:url(./images/work/todo/quit.png);
+	}
+	&.marginratio{
+		background-image:url(./images/work/todo/marginratio.png);
+	}
+	&.buyratio{
+		background-image:url(./images/work/todo/buyratio.png);
+	}
+	&.clientflow{
+		background-image:url(./images/work/todo/clientflow.png);
+	}
+	&.opentip{
+		background-image:url(./images/work/todo/opentip.png);
+	}
+	&.approve{
+		background-image:url(./images/work/todo/approve.png);
+	}
+	&.message{
+		background-image:url(./images/work/todo/message.png);
+	}
+
+}
+
+
+@media screen and (max-width: 320px){
+	.icon {
+	    overflow: hidden;
+		text-overflow: ellipsis;
+	}
+}

@@ -1,0 +1,140 @@
+.floor {
+    width: 100%;
+	overflow: hidden;
+}
+.arrow_top{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    line-height: 1;
+}
+
+.edit_phone_box{
+	border-radius:12px;
+	background-color:#f2f2f2;
+	padding:15px;
+	margin-top:15px;
+	position:relative;
+    font-size:14px;
+}
+.edit_phone_box p{
+	line-height:18px;
+	color:#333
+}
+.mot_detail_top{
+	width:100%;
+	height:100px;
+	background:url(./images//work/home/bg_mot_detail_top.png) no-repeat;
+	background-size:100%;
+}
+.mot_pic{
+	margin:15px 0 0 15px;
+	float:left;
+	width:36px;
+	height:36px;
+}
+.mot_pic img{
+	border-radius:50%;
+	width:100%;
+	height:100%;
+	border:4px solid rgba(255,255,255,0.1)
+}
+.mot_name{
+	margin-left:20px;
+	color:#fff;
+	float:left;
+	margin-top:20px;
+}
+.mot_name p:first-child{
+	font-size:16px;
+	margin-bottom:6px;
+}
+.mot_name p:nth-child(2){
+	font-size:12px;
+	color:#828995;
+}
+.mot_assets{
+	margin-right:15px;
+	float:right;
+	color:#fff;
+	margin-top:20px;
+}
+.mot_assets p:first-child{
+	font-size:16px;
+	margin-bottom:6px;
+}
+.mot_assets p:nth-child(2){
+	font-size:12px;
+	color:#828995;
+	text-align:right
+}
+.cs_reason{
+	overflow:hidden;
+	padding:10px;
+	background:#fff;
+}
+.cs_reason h3{
+	overflow:hidden;
+	font-size:14px;
+	font-weight:100;
+	padding-left:13px;
+	display:block;
+	background:url(./images/work/home/left_border02.png) no-repeat left;
+	background-size:3px;
+}
+.edit_top{
+	width:20px;
+	height:20px;
+	position:absolute;
+	right:10%;
+	top:-21px;
+	z-index: 2;/*兼容ie8-*/
+}
+.cs_reason .edit_top {
+    left:5%;
+	right:auto
+}
+.cs_reason .edit_phone_box {
+    background-color: #f3f5f8;
+	padding:10px;
+	border-radius:6px;
+}
+.cs_reason .top_arrow2{
+	border-bottom: 10px #f3f5f8 solid;
+}
+.cs_reason span{
+	float:left;
+	font-size:16px;
+	line-height:20px;
+}
+.cs_reason a{
+	float:right;
+	border:1px solid #3492e9;
+	border-radius:3px;
+	padding:3px 5px;
+	color:#3492e9;
+	font-size:12px;
+}
+.top_arrow1,.top_arrow2{
+	width:0;
+	height:0;
+	display:block;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index: 5;/*兼容ie8-*/
+	border-top:10px transparent dashed;
+	border-left:10px transparent dashed;
+	border-right:10px transparent dashed;
+	border-bottom:10px white solid;
+	overflow:hidden;
+}
+.top_arrow2{
+	top:1px;/*重要*/
+	border-bottom:10px #f2f2f2 solid;
+}
+
+

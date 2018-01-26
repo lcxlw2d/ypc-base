@@ -1,0 +1,159 @@
+.content{
+	position: relative;
+}
+.auth_btn{
+	width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.auth_btn img {
+    width: 100%;
+}
+.bb_singlebox1,.bb_singlebox2,.bb_singlebox3,.bb_singlebox4,.bb_singlebox5,.bb_singlebox6{
+	width:50%;
+	float:left;
+	border-top:1px solid #eee;
+}
+.bb_singlebox5{
+	background:url(./images/work/home/icon_bb11.gif) no-repeat 15px 50%;
+	background-size:35px;
+}
+.bb_lock{
+	position: absolute;
+	top:0;
+width: 100%;
+height: 100%;
+border-top: 1px solid #eee;
+background: url(./images/work/home/investadvice/bg_white85.png) repeat;
+}
+.bb_singlebox6{
+	background:url(./images/work/home/icon_bb10.gif) no-repeat 15px 50%;
+	background-size:35px;
+}
+.bb_innerbox{
+  padding:12px 0;
+	margin-left:60px;
+	border-right:1px solid #eee;
+	overflow:hidden;
+}
+.bb_orange,.bb_red,.bb_blue,.bb_purpple,.bb_black{
+	font-size:14px;
+	margin-bottom:5px;
+}
+.bb_black{
+	color:#333
+}
+.home_c6{
+	font-size: 12px;
+	display: block;
+    border: 1px solid #f15a4a;
+    border-radius: 15px;
+    padding: 4px 8px;
+    color: #f15a4a;
+    float: left;
+}
+.home_c7{
+	font-size: 12px;
+	display: block;
+    border: 1px solid #3492e9;
+    border-radius: 15px;
+    padding: 4px 8px;
+    color: #3492e9;
+    float: left;
+}
+.bb_list{
+	margin-right:-1px;
+}
+.bb_list:after{
+    content: "";
+    display: block;
+    clear:both;
+}
+.itemBox{
+	width:50%;
+	float:left;
+	border-top:1px solid #eee;
+	background-repeat: no-repeat;
+	background-position: 15px 50%;
+	background-size: 33px;
+}
+.itemBox.touch{
+	background-color:#eee;
+}
+.dot{
+	position: absolute;
+	top: 7px;
+    left: -13px;
+    height: 8px;
+    width: 8px;
+	border-radius: 50%;
+	background-color: #f00;
+}
+.margin{
+	background-image:url(./images/work/home/icon_bb01.png);
+}
+.golden{
+	background-image:url(./images/work/home/icon_bb02.png);
+}
+.time{
+	background-image:url(./images/work/home/icon_bb03.png);
+}
+.newstock{
+	background-image:url(./images/work/home/icon_bb04.png);
+}
+.productdeadline{
+	background-image:url(./images/work/home/icon_bb05.png);
+}
+.footprint{
+	background-image:url(./images/work/home/icon_bb06.png);
+}
+.tracking{
+	background-image:url(./images/work/home/icon_bb07.png);
+}
+.server{
+	background-image:url(./images/work/home/icon_bb08.png);
+}
+.bb_innerbox{
+	position: relative;
+  	padding:12px 0;
+	margin-left:60px;
+	border-right:1px solid #eee;
+}
+.text{
+	font-size:15px;
+	margin-bottom:5px;
+}
+.tip{
+	font-size:12px;
+}
+.orange{
+	color:#ffa82a
+}
+.red{
+	color:#ff7373
+}
+.blue{
+	color:#5fa2ff
+}
+.purpple{
+	color:#a87ec3
+}
+
+/*iphone5等小屏幕兼容*/
+@media only screen and (max-width:320px){
+	.itemBox{
+		background-position: 10px 50%;
+		background-size: 32px;
+	}
+	.bb_innerbox{
+		margin-left:50px;
+	}
+}

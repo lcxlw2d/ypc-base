@@ -1,0 +1,19 @@
+.frame{
+    position:fixed;
+    top:112px;
+    bottom:0;
+    left:0;
+    right: 0;
+}
+.item{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-bottom: 1px solid #f8f8f8;
+    padding: 15px 10px;
+}
+.item.on {
+    background: #f4faff;
+    outline: 1px solid #3492e9;
+    color: #3492e9;
+}

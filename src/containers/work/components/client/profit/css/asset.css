@@ -1,0 +1,220 @@
+.accountbox {
+    padding-bottom: 0.96rem;
+    font-size: 0.28rem;
+    margin-top: 0.88rem;
+}
+.green {
+    color: #37a11b;
+}
+.red {
+    color: #ff4433;
+}
+.clear {
+    clear: both;
+}
+.columnbox {
+    overflow: hidden;
+    background: #fff;
+    border-bottom: 0.2rem solid #eff0f4;
+    padding-bottom: 0.42rem;
+}
+.cl_tit {
+    position: relative;
+    height: 0.88rem;
+    line-height: 0.88rem;
+}
+.cl_tit center {
+    font-weight: bold;
+    color: #555;
+    font-size: 0.36rem;
+}
+.unitof {
+    position: absolute;
+    right: 0.3rem;
+    color: #666;
+    font-size: 0.24rem;
+    top: 0;
+}
+.assetsbox {
+    margin-top: 0.2rem;
+}
+.final_at {
+    background: url(./images/work/client/account/arrowbg.png) no-repeat bottom;
+    background-size: 100%;
+    padding-bottom: 0.58rem;
+}
+.fncircle {
+    box-shadow: 0 0.12rem 0 rgba(255,241,241,1);
+    height: 2.6rem;
+    width: 2.6rem;
+    background: #fff;
+    border-radius: 50%;
+    border: 0.18rem solid #f55858;
+    margin-left: auto;
+    margin-right: auto;
+}
+.c6 {
+    color: #666;
+}
+.fncircle p.c6 {
+    margin-top: 0.66rem;
+}
+.fncircle p.red {
+    margin-top: 0.2rem;
+    font-size: 0.42rem;
+}
+.accountbox .red {
+    color: #ff4433;
+}
+.fncircle p {
+    text-align: center;
+}
+.assetlist {
+    margin-top: 0.1rem;
+}
+.asset01 {
+    position: relative;
+    float: left;
+    border: 1px solid #ddd;
+    border-radius: 0.06rem;
+    width: 2.08rem;
+    height: 0.9rem;
+    margin-left: 0.3rem;
+    text-align: center;
+    box-shadow: 0 0.03rem 0.03rem rgba(239,240,244,1);
+}
+.asset01 h3 {
+    display: block;
+    position: absolute;
+    width: 1.45rem;
+    height: 0.35rem;
+    line-height: 0.35rem;
+    color: #fff;
+    background: #3492e9;
+    font-size: 0.24rem;
+    top: -0.16rem;
+    font-weight: 100;
+    left: 50%;
+    margin-left: -0.725rem;
+}
+.asset01 p {
+    color: #3492e9;
+    padding-top: 0.4rem;
+    text-align: center;
+}
+.asset01.red h3 {
+    background: #f55858;
+}
+.asset01.red p {
+    color: #ff4433;
+}
+.asset01.green h3 {
+    background: #46b053;
+}
+.asset01.green p {
+    color: #46b053;
+}
+.inflow {
+    border: 1px solid #ddd;
+    position: relative;
+    background-color: #FFF;
+    border-radius: 0.1rem;
+    margin: 0.3rem 0.3rem 0 0.3rem;
+}
+.in_tit {
+    border-bottom: 1px solid #ddd;
+    padding: 0.15rem 0;
+    background: #eff0f4;
+}
+.in_list {
+    overflow: hidden;
+}
+.inflow .pt_top {
+    width: 0.4rem;
+    height: 0.4rem;
+    position: absolute;
+    top: -0.4rem;
+    left: 50%;
+    margin-left: -0.2rem;
+}
+.inflow .top_arrow1 {
+    border-bottom: 0.2rem #ddd solid;
+}
+.inflow .top_arrow1, .inflow .top_arrow2 {
+    width: 0;
+    height: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    border-top: 0.2rem transparent dashed;
+    border-left: 0.2rem transparent dashed;
+    border-right: 0.2rem transparent dashed;
+    overflow: hidden;
+}
+.inflow .top_arrow2 {
+    top: 0.02rem;
+    border-bottom: 0.2rem #eff0f4 solid;
+}
+.in_tit h1 {
+    margin-bottom: 0.1rem;
+    font-size: 0.28rem;
+    font-weight: 100;
+    text-align: center;
+}
+.in_tit p {
+    text-align: center;
+    font-size: 0.24rem;
+    color: #666;
+}
+.in_into {
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+}
+.inicon01 {
+    width: 0.8rem;
+    height: 0.8rem;
+    background: url(./images/work/client/account/icon01.png) no-repeat 50% 50% #fff;
+    background-size: 0.38rem;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    position: absolute;
+    left: 50%;
+    margin-left: -0.4rem;
+    top: 50%;
+    margin-top: -0.4rem;
+}
+.inicon02 {
+    width: 0.8rem;
+    height: 0.8rem;
+    background: url(./images/work/client/account/icon02.png) no-repeat 50% 50% #fff;
+    background-size: 0.38rem;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    position: absolute;
+    left: 50%;
+    margin-left: -0.4rem;
+    top: 50%;
+    margin-top: -0.4rem;
+}
+.in_into div.left {
+    width: 50%;
+    padding: 0.2rem 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    float: left;
+    border-right: 1px solid #ddd;
+}
+.in_into:nth-child(2) {
+    border-bottom: none;
+}
+.in_into div.left p.c3, .in_into div.left p.red, .in_into div.left p.green {
+    font-size: 0.32rem;
+}
+.in_into div.left p {
+    line-height: 0.36rem;
+    text-align: center;
+}
+.in_into div.left p.c6 {
+    font-size: 0.24rem;
+}

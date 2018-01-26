@@ -1,0 +1,29 @@
+.box{
+    position: absolute;
+    bottom:10px;
+    left:10px;
+    right:10px;
+}
+
+.camera, .album, .cancel{
+    background:#fff;
+    color:#3492e9;
+    line-height: 45px;
+    text-align: center;
+    font-size:17px;
+    letter-spacing: 2px;
+}
+
+.camera{
+    border-radius: 10px 10px 0 0;
+    border-bottom:1px solid #ddd;
+}
+
+.album{
+    border-radius:0 0 10px 10px;
+}
+
+.cancel{
+    margin-top:10px;
+    border-radius: 10px;
+}

@@ -1,0 +1,12 @@
+.frame{
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    height:100%;
+    z-index:100000;
+}
+.container{
+    height:90%;
+    margin-top:44px;
+}

@@ -1,0 +1,28 @@
+.ac_table {
+    font-size: 0.24rem;
+    /* border-radius: 0.06rem; */
+    padding: 0 0.3rem;
+    /* border-top: 0.01rem solid #eee; */
+}
+.ac_table table, .ac_table th, .ac_table td {
+    border: 0.01rem solid #eee;
+    border-collapse: collapse;
+}
+.ac_table th {
+    background: #eff0f4;
+    font-weight: 100;
+}
+.ac_table th, .ac_table td {
+    padding: 0.2rem 0;
+    text-align: center;
+}
+.ac_table h1 {
+    margin-bottom: 0.2rem;
+    font-size: 0.3rem;
+    margin-top: 0.42rem;
+    font-weight: 100;
+}
+.ac_table td:first-child {
+    padding-left: 0.10rem;
+    padding-right: 0.10rem;
+}

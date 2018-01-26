@@ -1,0 +1,13 @@
+.bg01 {
+    position: relative;
+    width: 100%;
+}
+.bgimg {
+    width: 100%;
+    display: block;
+}
+.iconlist {
+    margin-top: -1px;
+    border-top: 1px solid #eee;
+    background-color: #fff;
+}

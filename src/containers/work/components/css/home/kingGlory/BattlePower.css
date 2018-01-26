@@ -1,0 +1,17 @@
+.my_combat .wzrytit01{
+	padding-top:0
+}
+.wzrytit01{
+	padding-top:35px;
+	width:100%;
+}
+.wzrytit01 img{
+	width:92%;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+.echarts{
+    width: 100%;
+    height: 213px;
+}

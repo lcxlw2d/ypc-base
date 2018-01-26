@@ -1,0 +1,154 @@
+/*电子名片-选择营业部*/
+.pop_up{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: rgba(0,0,0,0.5);
+}
+.ecard_box{
+    background: #fff;
+    border-radius: 15px;
+    width: 90%;
+    margin-top: -76%;
+    top: 50%;
+    margin-left: -45%;
+    left: 50%;
+    position: absolute;
+}
+.choose_top{
+	height:50px;
+	line-height:60px;
+	margin:0 15px 0;
+	border-bottom:1px solid #eee;
+}
+.choose_top span{
+	font-size:16px;
+}
+.choose_search{
+	margin:10px 15px;
+	height:34px;
+	border-radius:5px;
+	position:relative;
+	border:1px solid #eee;
+}
+.choose_search input[type=text].clientsearch{
+    left:53px;
+}
+.choose_search input[type=text]{
+    position: absolute;
+    left:0;
+    padding-left: 15px;
+    height: 34px;
+    line-height: 34px;
+    color: #999;
+    border: none;
+    width: 60%;
+    background: none;
+    font-family: Microsoft Yahei, tahoma, arial, 宋体;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.choose_search input[type=button]{
+    position: absolute;
+    right: 10px;
+    width: 20px;
+    margin-top: -10px;
+    height: 20px;
+    border: none;
+    background: url(./images/work/me/searchico03.png) no-repeat;
+    background-size: 20px;
+    top: 50%;
+}
+
+.boxes{
+    position: relative;
+    height:330px;
+}
+
+@media screen and (max-width: 320px) {
+	.choose_list ul{
+		max-height: 325px;
+	}
+    .boxes{
+        height:300px;
+    }
+}
+.choose_btn{
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	margin-top:10px;
+	border-top:1px solid #eee;
+}
+.choose_btn.on{
+	border-radius:0 0 13px 13px;
+	background:#3492e9;
+	border-top:1px solid #3492e9;
+}
+.choose_btn.on span{
+	color:#fff;
+}
+.height_auto{
+	height:auto
+}
+
+.recent{
+    position: absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    padding: 0 15px;
+    background: #fff;
+}
+.title{
+    height:30px;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-bottom:10px;
+    font-size:16px;
+    color:#666;
+}
+.recent .content{
+    position: absolute;
+    top:40px;
+    right:0;
+    left:0;
+    bottom:0;
+    padding: 0 15px;
+    background: #fff;
+    overflow: auto;
+}
+.recent .content span{
+    display: inline-block;
+    border-radius: 4px;
+    margin-left: 10px;
+    padding: 7px 10px;
+    margin-bottom: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #f7f7f7;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 85%;
+}
+.recent span.selected{
+    border-color:#3492e9;
+    color:#3492e9;
+}
+.select {
+    -webkit-appearance: none;
+    display: inline-block;
+    border: none;
+    border-right: 1px solid #ddd;
+    border-radius: 0;
+    padding-right: 20px;
+    background: url(./images/work/client/arrow_down05.png) no-repeat 35px 10px;
+    background-size: 12px;
+    font-size: 14px;
+    line-height: 34px;
+    padding-left: 5px;
+}

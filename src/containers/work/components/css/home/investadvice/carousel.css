@@ -1,0 +1,15 @@
+.pic{
+    height:130px;
+}
+.mainText{
+    color:#fff;
+    font-size: 20px;
+    text-align: center;
+    padding-top:35px;
+}
+.subText{
+    color:#fff;
+    text-align: center;
+    padding-top:15px;
+    font-size: 15px;
+}

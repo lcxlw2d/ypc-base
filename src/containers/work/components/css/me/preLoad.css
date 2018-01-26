@@ -1,0 +1,14 @@
+.box{
+    position: fixed;
+    z-index:-1;
+    top:-50px;
+    left:-50px;
+    height:2px;
+    width:2px;
+    overflow: hidden;
+}
+
+.box img{
+    width:2px;
+    height: 2px;
+}

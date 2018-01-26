@@ -1,0 +1,234 @@
+.progress1,.progress2,.progress3,.progress4,.progress0,.progress5{
+	margin: 8px 0;
+    background:#fff;
+    border-radius: 30px;
+}
+.progress5{
+	border:1px solid #ff7373;
+     height: 100%;
+}
+.progress4{
+	border:1px solid #ffbd5e;
+     height: 100%;
+}
+.progress3{
+	border:1px solid #ffe26c;
+     height: 100%;
+}
+.progress2{
+	border:1px solid #b09fbb;
+     height: 100%;
+}
+.progress1{
+	border:1px solid #72b5f4;
+     height: 100%;
+}
+.progress0{
+	border:1px solid #cdcdcd;
+     height: 100%;
+}
+
+.progress_bar {
+    position: relative;
+    height: 8px;
+    border-radius:30px;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+	background-color: #ff7373;
+}
+.progress5 .progress_bar {
+	background-color: #ff7373;
+    width: 100%;
+}
+.progress4 .progress_bar {
+	background-color: #ffbd5e;
+     width: 80%;
+}
+.progress3 .progress_bar {
+	background-color: #ffe680;
+     width: 60%;
+}
+.progress2 .progress_bar {
+	background-color: #a892ca;
+     width: 40%;
+}
+.progress1 .progress_bar {
+	background-color: #72b5f4;
+     width: 20%;
+}
+.progress0 .progress_bar {
+	background-color: #fff;
+     width: 0%;
+}
+.index_star{
+	float:left
+}
+.index_star img{
+	height:12px;
+}
+.btn_sgj{
+	float:right;
+	margin-left:5px;
+}
+.btn_sgj a{
+	border:1px solid #ddd;
+	border-radius:3px;
+	font-size:12px;
+	padding:0 3px;
+}
+.btn_sgj a:hover,.btn_sgj a:focus{
+	border:1px solid #3492e9;
+	background:#3492e9;
+	color:#fff;
+}
+.frame{
+    position:fixed;
+    top:246px;
+    left:0;
+    right: 0;
+    bottom:0;
+}
+.header{
+    position: relative;
+}
+.header th{
+	position: relative;
+    padding:7px 9px 7px 9px;
+    font-weight: 100;
+    color: #666;
+    border-left: 1px solid #eee;
+    vertical-align: middle;
+    border-bottom: 1px solid #eee;
+}
+.header th:first-child{
+    border-left: none;
+}
+.header th p{
+	display: inline-block;
+	line-height: 18px;
+}
+.tableList{
+    position:absolute;;
+    left:0;
+    top:51px;
+    right:0;
+    bottom:0;
+}
+.star{
+    display: inline-block;
+    width:13px;
+    height: 12px;
+    background: url("./images/work/home/investadvice/star.png") no-repeat;
+    background-size:12px;
+}
+.star0{
+    display: inline-block;
+    width:13px;
+    height: 12px;
+    background: url("./images/work/home/investadvice/star0.png") no-repeat;
+    background-size:12px;
+}
+.rows td{
+	padding:11px 5px 11px 5px;
+	line-height:16px;
+    vertical-align: middle;
+    word-break:break-all;
+}
+.rows:nth-child(2n){
+    background-color:#f9f9f9;
+}
+.rows td p{
+	line-height:18px;
+     word-break:break-all;
+}
+
+
+.header th:nth-child(1){
+    width:20%;
+}
+.header th:nth-child(2){
+    width:25%;
+}
+.header th:nth-child(3){
+    width:18%;
+}
+.header th:nth-child(4){
+    width:37%;
+}
+.rows td:nth-child(1){
+    width: 20%;
+}
+.rows td:nth-child(2){
+    width: 25%;
+}
+.rows td:nth-child(3){
+    width: 18%;
+}
+.rows td:nth-child(4){
+    width: 37%;
+}
+
+.icon_sort{
+	position: absolute;
+	right:3px;
+	top:18px;
+	background:url(./images/work/home/ico_sort.png) no-repeat left;
+	background-size:10px 14px;
+	width:10px;
+	height:14px;
+}
+.icon_sort.asc{
+    background-image: url(./images/work/home/ico_sort_rise.png);
+}
+.icon_sort.desc{
+    background-image: url(./images/work/home/ico_sort_decline.png);
+}
+
+.emptyImg{
+    text-align: center;
+}
+.emptyImg img{
+    width:45%;
+}
+.emptyImg div{
+    margin-top:13px;
+	font-size: 15px;
+}
+.nowrap{
+	white-space:nowrap; 
+}
+
+
+@media screen and (max-width: 320px) {
+	.btn_sgj{
+		margin-left:0;
+		margin-top:5px;
+		float:left
+	}
+    .header th:nth-child(1){
+        width:24%;
+    }
+    .header th:nth-child(2){
+        width:24%;
+    }
+    .header th:nth-child(3){
+        width:20%;
+    }
+    .header th:nth-child(4){
+        width:33%;
+    }
+    .rows td:nth-child(1){
+        width: 24%;
+    }
+    .rows td:nth-child(2){
+        width: 24%;
+    }
+    .rows td:nth-child(3){
+        width: 20%;
+    }
+    .rows td:nth-child(4){
+        width: 33%;
+    }
+}

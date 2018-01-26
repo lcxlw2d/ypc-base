@@ -1,0 +1,40 @@
+.caliberbox{
+	font-size:0.28rem;
+	padding-bottom:0.5rem;
+	margin-top:64px;
+    background:#fff;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.caliberbox li{
+	padding-top:0.2rem;
+	padding-bottom:0.2rem;
+	min-height:0.94rem;
+	border-bottom:0.005rem solid #eee;
+	padding-left:0.3rem;
+	padding-right:0.3rem;
+}
+.caliberbox li h1{
+	font-size:0.32rem;
+	font-weight:100;
+	line-height:0.48rem;
+}
+.caliberbox li h1 i{
+	width:0.38rem;
+	height:0.43rem;
+	font-style:normal;
+	display:block;
+	float:left;
+	margin-right:0.2rem;
+	background:url(./images/work/client/account/vlicon08.png) no-repeat;
+	background-size:100%;
+	font-size:0.24rem;
+	color:#fff;
+	line-height:0.43rem;
+	text-align:center;
+}
+.caliberbox li p{
+	color:#666;
+	line-height:0.43rem;
+	margin-top:0.12rem;
+}

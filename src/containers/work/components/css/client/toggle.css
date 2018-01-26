@@ -1,0 +1,23 @@
+.cus_classify{
+	text-align:center;
+    font-size: 16px;
+}
+.cus_classify a.accont_ordinary{
+	border:1px solid #fff;
+	border-radius:6px 0 0 6px;
+	padding:3px 12px;
+	color:#fff;
+	margin-right: -5px;
+	border-right:1px solid #fff;
+}
+.cus_classify a.accont_credit{
+	border:1px solid #fff;
+	border-radius:0 6px 6px 0;
+	padding:3px 12px;
+	color:#fff;
+	border-left:none;
+}
+.cus_classify a.accont_ordinary.on,.cus_classify a.accont_credit.on{
+	background-color:#fff;
+	color:#000;
+}

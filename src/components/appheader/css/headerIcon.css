@@ -1,0 +1,93 @@
+.ico{
+    display: inline-block;
+    width: 24px;
+    height: 45px;
+    margin-left: 8px;
+    background: left center no-repeat;
+    background-size: 24px;
+    padding: 0px 3px;
+    position: relative;
+}
+
+.ico .dot{
+    position: absolute;
+    right: 0px;
+    top: 7px;
+  	height: 10px;
+  	width: 10px;
+  	border-radius: 50%;
+  	background: #f00;
+}
+
+.search.blue{
+    margin-left:0;
+    background-image: url('./images/common/appheader/searchico01.png');
+}
+.ico_user{
+    margin-left:0;
+    width:30px;
+    background-image:url('./images/common/appheader/icon01.png');
+}
+.favourite{
+    background-image:url('./images/common/appheader/ico_collect.png');
+}
+.edit{
+    background-image:url('./images/common/appheader/ico_edit.png');
+}
+
+
+/********new***********/
+.list {
+    background-image: url('./images/common/appheader/list.png');
+}
+.follow{
+    background-image: url('./images/common/appheader/follow.png');
+}
+.follow_on{
+    background-image: url('./images/common/appheader/follow_on.png');
+}
+.phone{
+	background-image:url('./images/common/appheader/phone.png');
+}
+.filter{
+	background-image:url('./images/common/appheader/filter.png');
+}
+.attend{
+    background-image: url('./images/common/appheader/attend.png');
+}
+.news{
+    background-image: url('./images/common/appheader/news.png');
+}
+.newsCenter{
+    background-image: url('./images/common/appheader/tit_hotnews.png');
+}
+.add{
+    background-image: url('./images/common/appheader/add.png');
+}
+.qrcode{
+    background-image: url('./images/common/appheader/qrcode.png');
+}
+.ok{
+    background-image: url('./images/common/appheader/ico_ok.png');
+}
+.tip{
+    background-image: url('./images/common/appheader/tip.png');
+}
+.bulb{
+    background-image: url('./images/common/appheader/bulb.png');
+}
+.add_cus{
+    background-image: url('./images/common/appheader/ico_add_cus.png');
+}
+
+.ico_scan{
+    background-image: url('./images/common/appheader/ico_scan.png');
+}
+
+.more{
+    background-image: url('./images/work/client/footprint/ft_icon_more.png');
+}
+
+.time{
+    background-image: url('./images/work/client/footprint/ft_icon_calendar.png');
+}

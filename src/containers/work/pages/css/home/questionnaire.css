@@ -1,0 +1,28 @@
+.questionnaire_index {
+    width: 100%;
+    margin-top: 44px;
+    position: relative;
+}
+.qt_index_bg {
+    width: 100%;
+    position: fixed;
+    top: 64px;
+    bottom: 0;
+    background: url("./images/work/home/bg_questionnaire.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.qt_start:hover, .qt_start:focus {
+    bottom: 25px;
+}
+.qt_start {
+    width: 80%;
+    position: fixed;
+    bottom: 15px;
+    height: 10%;
+    margin-left: -40%;
+    left: 50%;
+    cursor: pointer;
+    background: url("./images/work/home/qt_btn_01.png") no-repeat;
+    background-size: 100%;
+    transition: bottom .50s ease;
+}

@@ -1,0 +1,35 @@
+.singleft{
+	position:relative;
+	padding:0 0.3rem 0.2rem 0.3rem;
+	overflow:hidden;
+	border-bottom:0.01rem solid #eee;
+}
+.singleft i{
+	display:block;
+	width:0.16rem;
+	height:0.26rem;
+	position:absolute;
+	top:50%;
+	right:0.3rem;
+	margin-top:-0.13rem;
+	background:url(./images/work/client/footprint/ft_arrow_right02.png) no-repeat;
+	background-size:100%;
+}
+.singleft p{
+	margin-top:0.2rem;
+}
+.ft_name{
+	font-size:0.36rem;
+	margin-right:0.2rem;
+}
+.ft_num01{
+	font-size:0.36rem;
+	color:#ff4433;
+	margin-right:0.1rem;
+}
+.ft_num02{
+	font-size:0.36rem;
+	color:#3492e9;
+	margin-left:0.3rem;
+	margin-right:0.1rem;
+}

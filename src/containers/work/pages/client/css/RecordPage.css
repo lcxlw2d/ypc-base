@@ -1,0 +1,51 @@
+.btn_mycus_box{
+	height:60px;
+	position:fixed;
+	left:0;
+	right:0;
+	bottom:10px;
+	background:#fff;
+}
+.btn_mycus{
+	height:40px;
+	line-height:40px;
+	border:1px solid #ff7373;
+	border-radius:3px;
+	text-align:center;
+	background:#ffeeee;
+	margin:10px;
+	box-shadow:3px 3px 0 rgba(0,0,0,0.05);
+}
+
+.btn_mycus_no{
+	height:40px;
+	line-height:40px;
+	border:1px solid #ababab;
+	border-radius:3px;
+	text-align:center;
+	background:#eeeeee;
+	margin:10px;
+	box-shadow:3px 3px 0 rgba(0,0,0,0.05);
+}
+
+.btn_mycus a{
+	background-size:18px;
+	padding-left:28px;
+	color:#ff5555;
+}
+
+.btn_mycus_no a{
+	background-size:18px;
+	padding-left:28px;
+	color:#ababab;
+}
+
+.up_load a{
+	background:url(./images/work/client/record/icon_upload.png) no-repeat left !important;
+	background-size:22px !important;
+}
+
+.up_load_no a{
+	background:url(./images/work/client/record/icon_upload_disabled.png) no-repeat left !important;
+	background-size:22px !important;
+}

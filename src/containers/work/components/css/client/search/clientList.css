@@ -1,0 +1,84 @@
+.frame{
+    position:fixed;
+    left:0;
+    right:0;
+    top:112px;
+    bottom:0px;
+	z-index: -1;
+}
+
+.cus_name{
+	float: left;
+	padding-left:2%;
+	width:25%;
+    margin-right:3%;
+    word-break: break-all;
+}
+.cus_name p{
+	margin-bottom:6px;
+}
+.cus_sale{
+	float: left;
+	vertical-align:middle;
+	line-height: 16px;
+	width:45%;
+}
+.cus_belong{
+	float: left;
+	text-align:center;
+	line-height: 16px;
+	width:25%
+}
+.cus_belong span{
+	border: 1px solid #ff7373;
+    border-radius: 3px;
+    padding: 0 4px 0 4px;
+}
+.cus_belong span.red{
+	border-color:#ff7373;
+    color:#ff7373;
+}
+.cus_belong span.gray{
+	border-color:#666;
+    color:#666;
+}
+
+
+
+.sg_top{
+	background-color:#f8f8f8;
+	border-bottom: 1px;
+	border-color: #eee;
+	border-style: solid;
+	padding:10px 10px 4px 10px;
+}
+.sg_top:after{
+	content:"";
+	display: block;
+	clear:both;
+}
+.sg100{
+	padding:20px 10px;
+	background-color:#fff;
+}
+.sg_cont{
+	border:1px solid #eee;
+	border-radius:10px;
+	background-color:#fff;
+}
+.sg_inner{
+    border-bottom:1px solid #eee;
+	padding:15px 0;
+}
+.sg_cont .sg_inner:last-child{
+	border-bottom:none;
+}
+.sg_cont span{
+	margin-right: 10px;
+    float: left;
+}
+.sg_cont p{
+	padding: 0 15px;
+  line-height: 21px;
+  overflow: hidden;
+}

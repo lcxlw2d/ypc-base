@@ -1,0 +1,57 @@
+/*热点消息*/
+
+.hotnews{
+	border-top:1px solid #eee;
+	border-bottom:1px solid #eee;
+	background:#fff;
+	overflow:hidden;
+	padding:4px 10px 6px 10px;
+	position:relative
+}
+.hotnews_icon{
+	float:left;
+	width:50px;
+	height:54px;
+	background:url(./images/work/home/icon_hotnews.png) no-repeat 50% 50%;
+	background-size:90%;
+	padding-right: 10px;
+}
+.line{
+	width:1px;
+	height:40px;
+	float:left;
+	margin-top:7px;
+	margin-left:8px;
+	background:#eee;
+}
+.hotnews_title{
+	height: 54px;
+}
+.hotnews_rec{
+    margin-left: 10px;
+    padding-top: 10px;
+    bottom: 8px;
+}
+.hotnews_rec_tit{
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.hotnews_rec_tit i{
+	border: 1px solid #f15a4a;
+    color: #ff5555;
+    border-radius:5px;
+    padding: 1px 4px;
+    float:left;
+    margin-right:6px;
+    font-size: 12px;
+    font-style: normal;
+}
+.hotnews_rec_text{
+	font-size:13px;
+	color:#999;
+	margin-top:6px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}

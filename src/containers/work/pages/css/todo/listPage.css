@@ -1,0 +1,47 @@
+.bot_btns{
+	border-top:1px solid #eee;
+	height:48px;
+	line-height:48px;
+	position:fixed;
+	bottom:0;
+	width:100%;
+}
+.bot_btns div{
+	width:49.5%;
+	float:left;
+}
+.bot_btns .choose_all,.bot_btns .cancel_all{
+	 text-align:center
+}
+.bot_btns .choose_all a{
+	background: url(./images/work/todo/btn_choose.png) no-repeat 0 50%;
+    background-size: 28px;
+    padding-left: 40px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+	color:#3492e9
+}
+.bot_btns .cancel_all a{
+	background: url(./images/work/todo/btn_cancel.png) no-repeat 0 50%;
+    background-size: 26px;
+    padding-left: 40px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+.choose_line{
+	width: 1% !important;
+    height: 48px;
+	background:url(./images/work/todo/line3e.png) 50% top no-repeat;
+}
+.clear{
+	border-bottom: 1px solid #eee;
+}
+.clear:after{
+	content:"";
+	display: block;
+	clear:both;
+}
+.ghost{
+	opacity:0.3;
+	background-color: rgba(0,0,0,0.05);
+}

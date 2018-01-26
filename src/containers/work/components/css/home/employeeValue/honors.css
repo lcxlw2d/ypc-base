@@ -1,0 +1,237 @@
+.frame{
+	position: fixed;
+    top: 105px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    overflow-x: hidden;
+	background-color: #e1624e;
+		    -webkit-overflow-scrolling: touch;
+}
+.frame2{
+	position: fixed;
+    top: 64px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    overflow-x: hidden;
+	background-color: #e1624e;
+		    -webkit-overflow-scrolling: touch;
+}
+.valuebox{
+	font-size:0.28rem;
+	padding-bottom: .2rem;
+	/* background-color: #e1624e; */
+	margin-bottom: 1.2rem;
+}
+/*.valuebox a:hover{
+	color:#ff4433;
+}*/
+.valuebox .red {
+    color:#e1624e;
+}
+.valuebanner02{
+	position:relative;
+	width:100%;
+	height:2.55rem;
+	background:url(./images/work/home/value_banner02.png) no-repeat;
+	background-size:100% 100%;
+}
+.btn_more{
+	width:3.66rem;
+	height:0.64rem;
+	display:block;
+	position:absolute;
+	bottom:0;
+	left:50%;
+	margin-left:-1.83rem;
+	background:url(./images/work/home/btn_vl_more.png) no-repeat;
+	background-size:100%;
+}
+
+.xb_top{
+	text-align:center;
+	width:100%;
+	height:1.29rem;
+	background:url(./images/work/home/vlbox_top.png) no-repeat;
+	background-size:100%;
+}
+.xb_top span{
+	line-height: 1rem;
+	font-size:0.36rem;
+	color:#e1624e;
+	font-weight:bold;
+}
+.xb_mid{
+	padding:0 0.7rem;
+    min-height: 7.2rem;
+	background:url(./images/work/home/vlbox_mid.png) repeat-y;
+	background-size:100%;
+}
+.mvp_intro{
+	margin-left:2.5rem;
+}
+.mvp_name{
+	margin-bottom:0.1rem;
+	padding-bottom:0.2rem;
+	border-bottom:0.02rem solid #e5d8d6;
+}
+.mvp_name strong{
+	font-size:0.32rem;
+	font-weight:bold;
+	color:#000;
+}
+.mvp_intro li{
+	background:url(./images/work/home/vlicon02.png) no-repeat left top 0.15rem;
+	padding-left:0.42rem;
+	background-size:0.3rem 0.2rem;
+	line-height:0.48rem;
+}
+.mvp_pic{
+	position:relative;
+	float:left;
+}
+.mvp_pic img{
+	width:1.9rem;
+	height:2.4rem;
+	border-radius:0.3rem;
+	border:0.09rem solid #e1624e;
+	display:block;
+}
+.mvp_pic i{
+	width:0.72rem;
+	height:0.62rem;
+	position:absolute;
+	top:-0.3rem;
+	right:-0.3rem;
+	background:url(./images/work/home/icon_hg2.png) no-repeat;
+	background-size:100%;
+	display:block;
+}
+
+.btn_flower{
+	margin-top:0.42rem;
+	background:#e1624e;
+	border-radius:0.1rem;
+	height:0.88rem;
+	text-align:center;
+}
+.btn_flower a{
+    background:url(./images/work/home/vlicon03_before.png) no-repeat left;
+	background-size:0.48rem 0.48rem;
+	padding-left:0.66rem;
+	color:#fff;
+	line-height:0.88rem;
+	font-size:0.36rem;
+}
+.btn_disabled a{
+    background:url(./images/work/home/vlicon03.png) no-repeat left;
+	background-size:0.48rem 0.48rem;
+
+}
+/*.btn_flower:hover{
+	background: #d14f3b;
+}*/
+
+.mvp_ccomment{
+	margin-top:0.42rem;
+
+overflow: scroll;
+}
+.mvp_ccomment h1{
+	margin-bottom:0.3rem;
+	font-size:0.33rem;
+	font-weight:100;
+}
+.mvp_ccomment h1 .red{
+	color:#ff4433
+}
+
+
+
+
+.combox_bt{
+	height:1.2rem;
+	position:fixed;
+	bottom:0rem;
+	left:0;
+	right:0;
+	background:#cc4a36;
+}
+.combox_bt input[type=text]{
+	width: 74%;
+    color: #e1624e;
+    height: 0.6rem;
+    background: #fff;
+    padding-left: 0.2rem;
+    border-radius: 0.8rem;
+    float: left;
+    border: none;
+    margin-left: 0.2rem;
+    margin-top: 0.3rem;
+}
+.combox_bt input[type=text] placeholder{
+	color:#e1624e;
+}
+.combox_bt .button{
+	width: 15%;
+color: #e1624e;
+height: 0.64rem;
+background: #fff;
+text-align: center;
+border-radius: 0.8rem;
+float: right;
+border: none;
+margin-right: 0.2rem;
+margin-top: 0.3rem;
+}
+.combox_bt span{
+	line-height: .63rem;
+
+}
+/*.combox_bt button:hover{
+	color:#fff;
+	background:#e1624e;
+}*/
+.xb_bot{
+	width:100%;
+	height:1.4rem;
+	background:url(./images/work/home/vlbox_bot.png) no-repeat;
+	background-size:100%;
+}
+.mvpbox{
+	min-height:  2.4rem;
+}
+
+
+.cm {
+	margin-left:0 !important;
+}
+.cm .rkleft_pic{
+	padding-left:0 !important
+}
+.cm .rkright_show {
+    margin-left: .5rem !important;
+}
+.rkltsingle{
+	margin-left:0.3rem;
+	overflow:hidden;
+	padding:0.2rem 0 0 0;
+	border-top:0.005rem solid #e5d8d6;
+}
+.operationlist{
+		position: fixed;
+		bottom: -0.01rem;
+		width: 100%;
+}
+.operationlist a{
+		display: block;
+		height: 0.9rem;
+		background: #fff;
+		text-align: center;
+		font-size: 0.36rem;
+		line-height: 0.9rem;
+		border-bottom: 0.01rem solid #eee;
+}

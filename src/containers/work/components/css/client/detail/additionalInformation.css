@@ -1,0 +1,28 @@
+
+.btn_ok{
+	background:url(./images/work/client/icon_ok.png) no-repeat;
+	background-size:24px;
+	width:24px;
+	height:24px;
+	float:right;
+	margin-right:10px;
+	margin-top: 5px;
+  margin-bottom: 5px;
+	cursor:pointer
+}
+.edit{
+	background:url(./images/work/client/ico_edit.png) no-repeat;
+	background-size:24px;
+	width:24px;
+	height:24px;
+	float:right;
+	margin-right:10px;
+	margin-top: 5px;
+  margin-bottom: 5px;
+	cursor:pointer
+}
+.remarks{
+	padding:10px;
+	line-height: 18px;
+	margin-bottom:15px;
+}

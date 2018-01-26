@@ -1,0 +1,77 @@
+.atten_search{
+	padding-top:10px;
+	padding-bottom:10px;
+	border-bottom:1px solid #eee;
+	background-color:#fff;
+}
+.atten_search .searchinnerbox{
+    margin: 10px 10px;
+    height: 32px;
+    background:#f1f6f8;
+    border-radius: 30px;
+    position: relative;
+}
+.atten_search .searchinnerbox input[type=text]{
+    position: absolute;
+    left:0;
+    padding-left:15px;
+    height: 30px;
+    line-height: 30px;
+    color: #999;
+    border: none;
+    width:70%;
+    background: none;
+    font-family: Microsoft Yahei, tahoma, arial, 宋体;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.atten_search .searchinnerbox input[type=button]{
+    position: absolute;
+    right: 10px;
+    width: 20px;
+    margin-top: -10px;
+    height: 20px;
+    border: none;
+    background: url(./images/work/home/searchico03.png) no-repeat;
+    background-size: 20px;
+    top: 50%;
+}
+
+.selectedArea{
+	height:80px;
+	background:#fff;
+	padding:0 10px;
+	overflow: auto;
+}
+
+.pattern{
+    font-size: .28rem;
+    color: #fff;
+    line-height: 44px;
+}
+
+.client{
+	position: relative;
+	display: inline-block;
+	line-height: 20px;
+	background-color: #eee;
+	padding:0 10px;
+	margin:10px 5px;
+	border-radius:10px;
+}
+
+.client .del{
+	position: absolute;
+    top: -5px;
+    right: -4px;
+    width: 12px;
+    height: 12px;
+    background: url(./images/work/home/icon_minus.png) no-repeat;
+    background-size: 12px;
+}
+
+.noData{
+	line-height: 80px;
+	text-align: center;
+}

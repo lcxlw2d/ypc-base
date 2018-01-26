@@ -1,0 +1,42 @@
+.bg01 {
+    position: relative;
+    width: 100%;
+    min-height: 165px;
+    background: url(./images/work/me/bg01.jpg) no-repeat top;
+    background-size: 100% 100%;
+}
+.mcpbox{
+    border: 1px solid #2da8e1;
+    position: absolute;
+    top: 30px;
+    height: 230px;
+    left: 10px;
+    border-radius: 15px;
+    right: 10px;
+   	z-index:10;
+}
+.mcpbox textarea{
+	width: 94%;
+  height: 77%;
+  padding: 10px;
+	border:none;
+	background:none;
+	color:#333;
+  font-size:15px;
+}
+.mcpbox .byte{
+    border-top: 1px solid #eee;
+	height:15%;
+	line-height:30px;
+	padding:0 10px;
+	border-radius:0 0 15px 15px
+}
+.bgimg {
+    width: 100%;
+    display: block;
+    padding-top: 20px;
+    background-color: #fff;
+}
+.buttons{
+    padding:0 10px;
+}

@@ -1,0 +1,16 @@
+.attendimg{
+    display: inline-block;
+}
+.img{
+    width:48px;
+	height:48px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img.big{
+    width:70px;
+    height:70px;
+}

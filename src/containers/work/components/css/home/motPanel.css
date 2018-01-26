@@ -1,0 +1,104 @@
+.home_mot_list{
+	overflow:hidden;
+	background-color:#fff;
+}
+.iconBox{
+	float:left;
+	width:25%;
+	padding-top:10px;
+	padding-bottom:15px;
+	text-align:center;
+	position: relative;
+}
+.iconBox.touch{
+	background-color: #eee;
+}
+.iconBox a{
+	font-size:14px;
+	white-space: nowrap;
+}
+.icon{
+	position: relative;
+	height:50px;
+	width:40px;
+	margin: 0 auto;
+	position:relative;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:38px;
+}
+.newstock{
+	background-image:url(./images/work/home/newstock.png);
+}
+.stockfee{
+	background-image:url(./images/work/home/stockfee.png);
+}
+.margin{
+	background-image:url(./images/work/home/margin.png);
+}
+.fund{
+	background-image:url(./images/work/home/fund.png);
+}
+.birthday{
+	background-image:url(./images/work/home/birthday.png);
+}
+.nomoneyin{
+	background-image:url(./images/work/home/nomoneyin.png);
+}
+.nexttip{
+	background-image:url(./images/work/home/nexttip.png);
+}
+.deadline{
+	background-image:url(./images/work/home/deadline.png);
+}
+.stockadd{
+	background-image:url(./images/work/home/stockadd.png);
+}
+.stockdeli{
+	background-image:url(./images/work/home/stockdeli.png);
+}
+.profit{
+	background-image:url(./images/work/home/profit.png);
+}
+.quit{
+	background-image:url(./images/work/home/quit.png);
+}
+.marginratio{
+	background-image:url(./images/work/home/marginratio.png);
+}
+.buyratio{
+	background-image:url(./images/work/home/buyratio.png);
+}
+.clientflow{
+	background-image:url(./images/work/home/clientflow.png);
+}
+.opentip{
+	background-image:url(./images/work/home/opentip.png);
+}
+.approve{
+	background-image:url(./images/work/home/approve.png);
+}
+.message{
+	background-image:url(./images/work/home/message.png);
+}
+
+.count{
+	position: absolute;
+	right: -5px;
+  	top: 2px;
+	width:17px;
+	height:17px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 17px;
+	border-radius: 10px;
+	background-color: #ff7373;
+	color:#fff;
+}
+
+@media screen and (max-width: 320px){
+	.iconBox{
+	    overflow: hidden;
+		text-overflow: ellipsis;
+	}
+}

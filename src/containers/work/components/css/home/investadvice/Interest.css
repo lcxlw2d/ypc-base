@@ -1,0 +1,165 @@
+.progress1,.progress2,.progress3,.progress4,.progress0,.progress5{
+	margin: 5px 0;
+    background:#fff;
+    width: 15%;
+	float:right;
+    border-radius: 30px;
+}
+.progress5{
+	border:1px solid #ff7373;
+     height: 100%;
+}
+.progress4{
+	border:1px solid #ffbd5e;
+     height: 100%;
+}
+.progress3{
+	border:1px solid #ffe26c;
+     height: 100%;
+}
+.progress2{
+	border:1px solid #b09fbb;
+     height: 100%;
+}
+.progress1{
+	border:1px solid #72b5f4;
+     height: 100%;
+}
+.progress0{
+	border:1px solid #cdcdcd;
+     height: 100%;
+}
+
+.progress_bar {
+    position: relative;
+    height: 8px;
+    border-radius:30px;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+	background-color: #ff7373;
+}
+.progress5 .progress_bar {
+	background-color: #ff7373;
+    width: 100%;
+}
+.progress4 .progress_bar {
+	background-color: #ffbd5e;
+     width: 80%;
+}
+.progress3 .progress_bar {
+	background-color: #ffe680;
+     width: 60%;
+}
+.progress2 .progress_bar {
+	background-color: #a892ca;
+     width: 40%;
+}
+.progress1 .progress_bar {
+	background-color: #72b5f4;
+     width: 20%;
+}
+.progress0 .progress_bar {
+	background-color: #fff;
+     width: 0%;
+}
+.c9{
+    color:#999;
+}
+.red {
+	color:#ff7373;
+}
+.cs_reason{
+	overflow:hidden;
+	padding:10px;
+	background:#fff;
+}
+.cs_reason h3{
+	overflow:hidden;
+	font-size:14px;
+	font-weight:100;
+	padding-left:13px;
+	display:block;
+	background:url(./images/work/home/left_border02.png) no-repeat left;
+	background-size:3px;
+}
+
+.investment{
+	margin-top:10px;
+	padding:10px 0 0 0;
+}
+.interestedbox{
+	border-top:1px solid #eee;
+}
+.int_sg{
+	border-bottom:1px solid #eee;
+	overflow:hidden;
+	padding:10px 10px 10px 0;
+}
+.int_left{
+	float:left;
+	width:95px;
+}
+.int_left p:first-child{
+	font-size:18px;
+	margin-bottom:6px;
+	color:#ff5555;
+	text-align:center;
+}
+.int_left p.c9{
+	font-size:12px;
+	text-align:center;
+}
+.int_right{
+	overflow:hidden;
+	margin-left:95px;
+	padding-left:10px;
+	border-left:1px solid #eee;
+}
+.int_right h2{
+	margin-bottom:5px;
+	font-weight:100;
+	font-size:16px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.int_right span{
+	font-size:12px;
+}
+.int_right span.red{
+	margin-right:10px;
+}
+.int_right div{
+	float:right;
+}
+.int_right .progress01, .int_right .progress02, .int_right .progress03, .int_right .progress04{
+	margin:0;
+	margin-top:6px;
+	width: 20%;
+    float: right;
+}
+.int_product{
+	width:100%
+}
+@media screen and (max-width: 320px) {
+	.int_right .progress01, .int_right .progress02, .int_right .progress03, .int_right .progress04{
+		width:16%;
+	}
+}
+.cs_reason span {
+    float: left;
+    font-size: 16px;
+    line-height: 20px;
+}
+.int_right .progress1,.int_right .progress1,.int_right .progress1,.int_right .progress1,.int_right .progress1{
+    float:right;
+}
+
+.int_right .progress_bar{
+	float:left;
+}
+.int_product .int_lefts{
+    float: left;
+}

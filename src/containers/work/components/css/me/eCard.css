@@ -1,0 +1,388 @@
+.frame{
+	position: absolute;;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	background-color: rgba(0,0,0,0.6);
+    overflow: auto;
+}
+.ecard_box{
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 15%;
+	border-radius:15px;
+	background-color: #fff;
+	position: relative;
+}
+.ecard_frame{
+	background-size:100%;
+	border-radius:15px;
+	background: #fff;
+	transition:background-image 0.5s;
+}
+.ec_user{
+	overflow:hidden;
+	padding:20px 20px 10px;
+	border-radius: 14px 14px 0 0;
+	transition:background-image 0.5s;
+	background-repeat:no-repeat;
+	background-position: top;
+	background-size: 100%;
+}
+.ec_user img{
+	float:left;
+	margin-top: 10px;
+	margin-right: 15px;
+	background-color:rgba(255,255,255,0.6);
+	width:60px;
+	height:60px;
+	border: 5px solid rgba(255, 255, 255, 0.35);
+    border-radius: 50%;
+	transition:background-color 0.5s, border-color 0.5s;
+}
+.ec_intro{
+	color: #fff;
+	margin-left: 85px;
+	transition:color 0.5s;
+}
+.ec_intro p{
+	margin-top:10px;
+}
+.ec_intro input.edit{
+	width:180px;
+	padding:0 5px;
+	border:1px solid #ddd;
+	height:24px;
+	border-radius:3px;
+}
+.ec_intro p.editSelf{
+	padding:2px 0;
+  	width: 190px;
+	line-height: 18px;
+	margin-top:5px;
+	color:#fff;
+	transition:color 0.5s;
+}
+.ec_intro .font16{
+	font-size: 20px;
+    font-weight: bold;
+    font-family: Microsoft yahei;
+    margin-right: 10px;
+}
+.ec_erweima{
+	border-radius: 15px;
+    background-color: #fff;
+    width: 200px;
+    padding: 10px;
+    margin-left: auto;
+    margin-top: 10%;
+    margin-right: auto;
+    border: 2px dashed #39618f;
+    box-shadow: 5px 5px 0 rgba(0,0,0,.16);
+}
+.ec_erweima img{
+	width:200px;
+}
+.ec_center{
+	margin-top: 23px;
+    color: #999;
+    text-align: center;
+}
+.xybg{
+	width:70%;
+	height:50px;
+	margin: 0 auto;
+	background: url(./images/work/me/logo_xyzq.png) no-repeat center;
+	background-size:contain;
+}
+.ec_btns{
+    height:48px;
+}
+.ec_btns a{
+	display: block;
+	height:48px;
+	color:#333;
+	padding-left: 5%;
+	float: left;
+}
+.btn_share{
+	background-size:24px;
+	border-radius: 0 0 13px 13px;
+	float:left;
+	width: 100%;
+	background-color:#fff;
+	height: 50px;
+	line-height: 50px;
+	border-top:1px solid #eee;
+}
+
+.tipbottom {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    bottom: -20px;
+    margin-left: -10px;
+    z-index: 2;
+}
+.arrow1, .arrow2 {
+    width: 0;
+    height: 0;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 5;
+    border-bottom: 10px transparent dashed;
+    border-left: 10px transparent dashed;
+    border-right: 10px transparent dashed;
+    border-top: 10px white solid;
+    overflow: hidden;
+}
+.share_icons ul:after{
+	content:"";
+	display: block;
+	clear:both;
+}
+.share_icons ul li{
+	color:#333;
+	float: left;
+	padding:0 0 0 55px;
+}
+.bg_white{
+	background-color: #fff;
+}
+.icon_weixin{
+	background:url(./images/work/me/weixin.png) no-repeat 15px 50%;
+	background-size:30px;
+}
+.icon_friends{
+	background:url(./images/work/me/friends.png) no-repeat 15px 50%;
+	background-size:30px;
+}
+.icon_qq{
+	background:url(./images/work/me/qq.png) no-repeat 15px 50%;
+	background-size:30px;
+}
+.hidden{
+	display: none;
+}
+
+.loadingFrame{
+	position: absolute;
+	top:0;
+	right:0;
+	bottom: 0;
+	left:0;
+	background:rgba(0,0,0,0.1);
+}
+
+.loading{
+    width: 40px;
+    height:40px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left: -20px;
+    margin-top: -20px;
+    background:url("./images/common/loading/loading_new.gif") no-repeat;
+    background-size: 40px;
+}
+.changetheme,
+.refresh{
+	position: absolute;
+    top: 5px;
+    color: #fff;
+    padding: 3px 6px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+	box-shadow: 0px 0px 3px;
+}
+.changetheme{
+    right: 7px;
+}
+.refresh{
+    right: 70px;
+}
+
+
+/************主题切换****************/
+/*红色风*/
+.ecard_box.hot .ecard_frame{
+	background-color:#fff;
+}
+.ecard_box.hot .ecard_frame .ec_user{
+	background-image: url(./images/work/me/bg11.png);
+}
+.ecard_box.hot .ecard_frame .ec_user img{
+	border-color: rgba(0, 0, 0, 0.3);
+}
+
+/*蓝色风*/
+.ecard_box.young .ecard_frame{
+	background-color:#fff;
+}
+.ecard_box.young .ecard_frame .ec_user{
+	background-image: url(./images/work/me/bg08.png);
+}
+
+/*木头风*/
+.ecard_box.wood .ecard_frame{
+	background-color:#fff;
+}
+.ecard_box.wood .ecard_frame .ec_user{
+	background-image: url(./images/work/me/bg12.png);
+}
+.ecard_box.wood .ecard_frame .ec_user img{
+	border-color: rgba(0, 0, 0, 0.3);
+}
+.ecard_box.wood .ecard_frame .ec_intro{
+	color:#000;
+}
+.ecard_box.wood .ecard_frame .ec_intro p.editSelf{
+	color:#000;
+}
+.ecard_box.wood .changetheme,
+.ecard_box.wood .refresh{
+	color:#000;
+	border-color:#555;
+	background: rgba(255,255,255,0.5);
+}
+
+
+/*钢材风*/
+.ecard_box.iron .ecard_frame{
+	background-color:#fff;
+}
+.ecard_box.iron .ecard_frame .ec_user{
+	background-image: url(./images/work/me/bg09.png);
+}
+
+/*熟女风*/
+.ecard_box.lady .ecard_frame{
+	background-color:#fff;
+}
+.ecard_box.lady .ecard_frame .ec_user{
+	background-image: url(./images/work/me/bg10.png);
+}
+
+/*外星风*/
+.ecard_box.planet .ecard_frame{
+	background-color:#fff;
+}
+.ecard_box.planet .ecard_frame .ec_user{
+	background-image: url(./images/work/me/bg13.png);
+}
+
+/*新年风*/
+.ecard_box.newyear .ecard_frame{
+	background-color:#fff;
+}
+.ecard_box.newyear .ecard_frame .ec_user{
+	background-image: url(./images/work/me/bg14.png);
+}
+
+/*吉祥风*/
+.ecard_box.fu .ecard_frame{
+	background-color:#fff;
+}
+.ecard_box.fu .ecard_frame .ec_user{
+	background-image: url(./images/work/me/bg15.png);
+}
+.ecard_box.fu .ecard_frame .ec_user img{
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.ecard_box.fu .ecard_frame .ec_intro{
+	color:#000;
+}
+.ecard_box.fu .ecard_frame .ec_intro p.editSelf{
+	color:#666;
+}
+.ecard_box.fu .changetheme,
+.ecard_box.fu .refresh{
+	color:#000;
+	border-color:#555;
+}
+
+/*商务风*/
+.ecard_box.business .ecard_frame{
+	background-color:#fff;
+}
+.ecard_box.business .ecard_frame .ec_user{
+	background-image: url(./images/work/me/bg06.png);
+}
+.ecard_box.business .ecard_frame .ec_user img{
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.ecard_box.business .ecard_frame .ec_intro{
+	color:#000;
+}
+.ecard_box.business .ecard_frame .ec_intro p.editSelf{
+	color:#666;
+}
+.ecard_box.business .changetheme,
+.ecard_box.business .refresh{
+	color:#000;
+	border-color:#555;
+}
+
+
+@media screen and (max-width: 640px) {
+	.share_icons ul li{
+	    padding: 0 0 0 50px;
+	    margin-left: 5px;
+	    margin-right: 10px;
+	}
+	.icon_weixin{
+		background-position: 10px 50%
+	}
+	.icon_pengyouquan{
+		background-position: 10px 50%
+	}
+	.icon_qq{
+		background-position: 10px 50%
+	}
+}
+
+/*iphone5等小屏幕兼容*/
+@media only screen and (max-width:320px){
+	.ecard_box{
+		margin-top: 10%;
+	}
+	.ec_user{
+		padding:20px 10px 10px 10px;
+	}
+	.ec_user img{
+		margin-right:8px;
+	    margin-top: 2px;
+		width:55px;
+		height:55px;
+	}
+	.ec_erweima{
+		margin-top:7%;
+		width: 175px;
+    	padding: 5px;
+	}
+	.ec_erweima img{
+		width:175px;
+	}
+	.ec_intro p{
+		margin-top:7px;
+	}
+	.ec_intro p.editSelf{
+		margin-top:2px;
+	  	width: 180px;
+	}
+	.ec_intro input.edit{
+		width:160px;
+	}
+	.changetheme{
+	    right: 5px;
+	    top: 3px;
+	}
+	.refresh{
+		top:3px;
+	}
+}

@@ -1,0 +1,70 @@
+.draft_save_tip{
+	position:fixed;
+	bottom:60px;
+	right:10px;
+	left:10px;
+	border:1px solid #cfd9dc;
+	border-radius:10px;
+	padding:10px;
+	background-color:#fff;
+    animation:qianrotate 4.5s infinite;
+}
+.draft_save_tip p{
+	color:#666;
+	text-align:center;
+}
+/*下箭头*/
+.arrow_bottom .bottom{
+	width:20px;
+	height:20px;
+	position:absolute;
+	left:50%;
+	margin-left:-10px;
+	bottom:-20px;
+	z-index: 2;/*兼容ie8-*/
+}
+.arrow_bottom .bottom_arrow1,.arrow_bottom .bottom_arrow2{
+	width:0;
+	height:0;
+	display:block;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index: 5;/*兼容ie8-*/
+	border-bottom:10px transparent dashed;
+	border-left:10px transparent dashed;
+	border-right:10px transparent dashed;
+	border-top:10px white solid;
+	overflow:hidden;
+}
+.arrow_bottom .bottom_arrow1{
+	top:1px;/*重要*/
+	border-top:10px #cfd9dc solid;
+}
+.arrow_bottom .bottom_arrow2{
+	border-top:10px white solid;
+}
+
+@-webkit-keyframes qianrotate {
+     0% {
+        opacity: 0;
+     }
+     20% {
+        opacity: 1;
+     }
+     60% {
+        opacity: 1;
+     }
+     80% {
+        opacity: 0;
+     }
+     100% {
+        opacity: 0;
+     }
+}
+
+@media screen and (max-width: 320px) { /*当屏幕尺寸小于375px时，应用下面的CSS样式*/
+	.draft_save_tip p{
+		font-size: 12px;
+	}
+}

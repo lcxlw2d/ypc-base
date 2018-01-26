@@ -1,0 +1,132 @@
+.frame{
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: rgba(0,0,0,0.5);
+}
+.mid{
+    vertical-align: middle;
+}
+.urlfont{
+	font-size:12px;
+}
+.radio{
+    -webkit-appearance:none;
+    display: inline-block;
+	width:24px;
+	height:24px;
+    margin-right:10px;
+    margin-top:0;
+    border:none;
+	background:url(./images/work/client/loginicon04.png) no-repeat 50% 50%;
+	background-size:24px;
+}
+.radio.on{
+    background-image:url(./images/work/client/loginicon03.png);
+}
+.serverbox{
+	margin-top:30%;
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.serverinnerdiv{
+	background-color:#fff;
+	border-radius:12px;
+	padding:20px;
+	overflow:hidden;
+	margin-top:10px;
+	border-left:5px solid #3492e9;
+}
+.serverinnerdiv h3 {
+    font-weight: 100;
+    float: left;
+    margin-right: 5px;
+	width:100%;
+	padding-bottom:6px;
+	border-bottom:1px solid #bbb;
+}
+.serverinnerdiv ul{
+	clear:both
+}
+.serverinnerdiv li{
+	overflow:hidden;
+	border-bottom:1px solid #eee;
+	padding: 6px 0;
+    line-height: 24px;
+}
+.input{
+	border:1px solid #ddd;
+	border-radius:3px;
+	height:20px;
+	padding-left:10px;
+}
+.serverinput input:hover,.serverinput input:focus{
+	border:1px solid #3492e9;
+}
+.server_tip{
+	color:#fff;
+	margin-top:15px;
+}
+.serverbtn{
+	background-color:#3492e9;
+	height:48px;
+	position:fixed;
+	bottom:0;
+	width:100%;
+}
+.serverbtn{
+	background-color:#3492e9;
+	height:48px;
+	position:fixed;
+	bottom:0;
+	width:100%;
+}
+.serverbtn div{
+	width:50%;
+	height:30px;
+	float:left;
+	padding-top:18px;
+	text-align:center;
+}
+.sv_cancel{
+	background-color:#57a5ee
+}
+.sv_save{
+	background-color:#3492e9;
+}
+.sv_cancel a{
+	background:url(./images/work/client/btn_cancel01.png) no-repeat left;
+	background-size:24px;
+	padding-left:36px;
+	padding-top:5px;
+	padding-bottom:5px;
+	color:#fff;
+}
+.sv_save a{
+	background:url(./images/work/client/btn_save01.png) no-repeat left;
+	background-size:24px;
+	padding-left:36px;
+	padding-top:5px;
+	padding-bottom:5px;
+	color:#fff;
+}
+@media screen and (max-width:320px) {
+	.radio{
+		margin-right:5px;
+		width:20px;
+		height:20px;
+		background-size:20px
+	}
+	.radio.on{
+		background-size:20px
+	}
+	.serverbox{
+		margin-top:20%;
+	}
+	.input{
+		width:115px
+	}
+}

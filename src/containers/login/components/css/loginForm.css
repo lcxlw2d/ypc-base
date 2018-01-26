@@ -1,0 +1,58 @@
+.loginform{
+	position: relative;
+	padding:30px 26px;
+}
+.lg_div{
+	border:1px solid #bfbfbf;
+	border-radius:30px;
+	height:36px;
+	display:table;
+	width:100%;
+	margin-bottom:10px;
+	background-color:#fff;
+}
+.lg_div:hover,.lg_div:focus{
+	border:1px solid #5c8ce7;
+}
+.lg_div .lg_text{
+	padding-left:5px
+}
+.lg_div .lg_text input{
+	width:100%;
+	height: 36px;
+	line-height: 36px;
+    border: none;
+	font-family:Microsoft Yahei, tahoma, arial, 宋体;
+	font-size:14px;
+    background: none;
+	color:#999;
+}
+
+.lg_copyright{
+	height:50px;
+	background-color:#f5f5f5;
+	text-align:center;
+	line-height:50px;
+	position:fixed;
+	left:0;
+	right:0;
+	bottom:0
+}
+.lg_error{
+	color:#fd5555;
+}
+.float_right{
+	float:right !important;
+}
+.login_tip{
+	background:url(/assets/images/login/loginicon05.png) no-repeat left;
+	background-size:20px;
+	padding-left:22px;
+	color:#ff5555;
+	line-height: 18px;
+	margin-top: -34px;
+	padding-top: 2px;
+}
+.login_tip img{
+	width:60%;
+}

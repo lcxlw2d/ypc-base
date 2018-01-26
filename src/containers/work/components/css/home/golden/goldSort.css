@@ -1,0 +1,61 @@
+.sort{
+	height:38px;
+	line-height:38px;
+	background-color:#fff;
+	overflow:hidden;
+}
+.sorttit{
+	color:#666;
+	float:left;
+	margin-left:10px;
+}
+.sorttab{
+	float:left;
+	border-left:1px solid #eee;
+	padding-left:6px;
+	margin-left:10px;
+}
+.sorttab span{
+	float:left
+}
+.sorttab .icon_tip01{
+	background:url(./images/work/home/icon_tip.png) no-repeat left;
+	background-size:15px;
+	margin-right:5px;
+	float:left;
+	display:block;
+	width:15px;
+	height:15px;
+	margin-top: 11px;
+}
+.sorttab .icon_sort{
+	background:url(./images/work/home/ico_sort.png) no-repeat left;
+	background-size:10px 14px;
+	float:left;
+	display:block;
+	width:10px;
+	height:14px;
+	margin-left:5px;
+	margin-top:12px;
+}
+.sorttab .icon_sort.up{
+    background-image: url(./images/work/home/ico_sort_rise.png);
+}
+.sorttab .icon_sort.down{
+    background-image: url(./images/work/home/ico_sort_decline.png);
+}
+
+
+/*iphone5等小屏幕兼容*/
+@media only screen and (max-width:320px){
+	.sorttit{
+		margin-left:5px;
+	}
+	.sorttab{
+		padding-left:2px;
+		margin-left:3px;
+	}
+	.sorttab span{
+		font-size:13px
+	}
+}

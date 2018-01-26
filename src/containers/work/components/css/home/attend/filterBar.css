@@ -1,0 +1,42 @@
+.atten_authority{
+	position:fixed;
+	left:0;
+	right:0;
+	bottom:0;
+	top:64px;
+	background:rgba(0,0,0,0.6);
+	width:100%;
+	height:100%;
+	z-index:99
+}
+
+.pro_inner_popup {
+    overflow: hidden;
+    background: url(./images/work/home/icon_authority.png) no-repeat 10px 10px #fff;
+    background-size: 40px;
+    padding: 10px 10px 10px 65px;
+    min-height: 60px;
+}
+
+.atten_authority .pro_inner_popup h3.c6 {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.authority_list{
+	margin-top:10px;
+}
+.authority_list li{
+	float:left;
+	margin-right:10px;
+}
+.authority_list li a{
+	display:block;
+	padding:6px 14px;
+	background:#e0e0e0;
+	border-radius:3px;
+}
+.authority_list li a.on{
+	background:#3492e9;
+	color:#fff;
+}

@@ -1,0 +1,79 @@
+.bg01 {
+    position: relative;
+    width: 100%;
+    min-height: 165px;
+    background: url(./images/work/me/bg01.jpg) no-repeat top;
+    background-size: 100% 100%;
+}
+
+.userbox {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.userbox .baseinfo {
+    float: left;
+    margin-top: 35px;
+}
+
+.userbox .user_name01 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.user_gg {
+    background: url(./images/work/me/bg_white20.png) repeat;
+    border-radius: 50%;
+    margin-top: 14px;
+    width: 56px;
+    height: 56px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px;
+}
+
+.user_gg img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.6);
+}
+
+.ecard {
+    width: 50%;
+    height: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 36px;
+    cursor: pointer;
+    background: url(./images/work/me/bg_white20.png) repeat;
+}
+
+.ecard a {
+    color: #fff;
+    font-size: 14px;
+    background: url(./images/work/me/qrcode.png) no-repeat 12%;
+    background-size: 20px;
+    padding-left: 30px;
+    height: 100%;
+    display: block;
+}
+
+.table {
+    border-bottom: 1px solid #eee;
+}
+
+.table td {
+    width: 25%;
+}

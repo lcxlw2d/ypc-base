@@ -1,0 +1,85 @@
+.date_search{
+	background-color:#3492e9;
+}
+.date_sc_box{
+	padding: 0px 10px 15px;
+    height: 100%;
+}
+.date_sc_box_left{
+	height: 30px;
+	width:49%;
+	float:left;
+	background-color:#fff;
+	border-radius:30px;
+	position:relative
+}
+.date_sc_box_left.right{
+	float:right !important;
+}
+.date_sc_box_left .date_input_box{
+	position:absolute;
+	top:0;
+	left:15px;
+	right:40px;
+}
+.date_sc_box_left .date_input_box input[type=text]{
+	width:100%;
+	height: 28px;
+    border: none;
+	color:#3492e9;
+    background: none;
+}
+.date_sc_box_left .date_input_box input[type=text]::-webkit-input-placeholder {
+    color:#3492e9;
+}
+.date_sc_box_left .icon_calendar{
+    float: right;
+    width: 20px;
+    margin-right: 10px;
+    height: 20px;
+    margin-top: 5px;
+    display: block;
+    background: url(./images/work/home/icon_calendar.png) no-repeat;
+    background-size: 100%;
+}
+.date_sc_code{
+	clear:both;
+	padding:10px 10px 0 10px;
+	position:relative;
+}
+.date_sc_code:after{
+    content:"";
+    display: block;
+    clear:both;
+}
+.date_code_text{
+	height:30px;
+	position:absolute;
+	left:0;
+	top:10px;
+	right:95px;
+	border:1px solid #b4d7f7;
+	border-radius:30px;
+}
+.date_code_text input[type=text]{
+	margin-left:6%;
+	height:30px;
+	background:none;
+	border:none;
+	color:#fff;
+    width: 90%;
+}
+.date_code_text input[type=text]::-webkit-input-placeholder {
+    color:#fff;
+}
+.date_code_btn{
+	width:70px;
+	float:right;
+	height:30px;
+	border-radius:30px;
+	color:#fff;
+	text-align:center;
+	line-height:32px;
+	background-color:#0076e3;
+	border:1px solid #0065c3;
+}

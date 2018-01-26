@@ -1,0 +1,97 @@
+.ecard_popup{
+	position:fixed;
+	left:0;
+	right:0;
+	bottom:0;
+	top:0;
+	background:url(./images/work/client/bg_black60.png) repeat;
+	width:100%;
+	height:100%;
+	z-index:9999;
+	overflow: auto;
+}
+.ecard_box{
+	background:url(./images/work/client/bg06.png) no-repeat top #fff;
+	background-size:100%;
+	border-radius:15px;
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 10%;
+}
+.pp_top{
+	height:44px;
+	text-align:center;
+	color:#fff;
+	font-size:16px;
+	line-height:44px;
+	border-radius:13px 13px 0 0;
+	background-color:#2da8e1;
+}
+.nobg{
+	background:#fff;
+	width:80%;
+	margin-top:40%;
+}
+
+.cus_choose{
+	padding-top:10px;
+}
+.cus_choose li{
+	overflow:hidden;
+	line-height:24px;
+	padding:12px 0;
+	margin:0 15px;
+	border-bottom:1px solid #eee;
+}
+.cus_choose span{
+	float:left;
+	width:70px;
+	color:#333;
+}
+.cus_choose a{
+	float:left;
+	background-color:#ededed;
+	border:1px solid #ededed;
+	color:000;
+	border-radius:5px;
+	margin: 0 5px 0 20px;
+	padding:0 10px;
+}
+.cus_choose a.on{
+	background-color:#fff;
+	border:1px solid #3492e9;
+	color:#3492e9;
+}
+.cus_choose input{
+	margin-left:20px;
+	border:none;
+}
+
+
+.pp_btns{
+	padding-bottom:30px;
+	width:85%;
+	margin-top:30px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.pp_btns a{
+	display:inline-block;
+	width:46%;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	border:1px solid #ddd;
+	border-radius:10px;
+}
+.pp_btns a:hover,.pp_btns a:focus{
+	border:1px solid #52bbeb;
+	background-color:#52bbeb;
+	color:#fff;
+}
+.btn_pp_ok{
+	float:right;
+	color:#2da8e1;
+	border:1px solid #2da8e1 !important;
+}

@@ -1,0 +1,187 @@
+/*考勤打卡*/
+.attendancebox{
+	padding-top:0px;
+}
+.attendance_top{
+	background:#2a2e3c;
+	padding:5px 15px 10px 15px;
+	height:55px;
+}
+.at_today{
+	float:left;
+    background: url(./images/work/home/bg_calendar.png) no-repeat 50% 50%;
+    background-size: 100% 100%;
+    width: 23%;
+	height: 100%;
+}
+.at_today p{
+    color: #999;
+	text-align:center;
+}
+.at_today .c9{
+	line-height:26px;
+	font-size:12px;
+    color: #999;
+}
+.at_today .white span{
+    color: #fff;
+	font-size:0.42rem;
+}
+.at_member{
+	float: left;
+    width: 21%;
+	padding-left: 17%;
+	margin-top: 5px;
+    border-right: 1px solid #444754;
+    background: url(./images/work/home/icon_footprint.png) no-repeat 16% 50%;
+    background-size: 38px;
+}
+.at_member p{
+    color: #999;
+	line-height:24px;
+}
+.at_member .white{
+    color: #fff;
+	font-size:0.28rem;
+}
+.attendance_top .noborder{
+	border-right:none !important
+}
+.at_member.noborder {
+    background-image: url(./images/work/home/icon_visitor.png);
+}
+
+/* new样式 */
+.today_add{
+	overflow:hidden;
+	font-size:0.28rem;
+	padding-bottom:0.38rem;
+	background: #207fd7;
+}
+.attendance_intr h2{
+	font-size:0.32rem !important;
+}
+.today_add a:hover{
+	color:#3492e9;
+}
+.today_add .red {
+    color:#ff4433;
+}
+
+.tdd_left{
+	width:2.7rem;
+	float:left;
+	color:#fff;
+	margin-top:0.42rem;
+	text-align:center;
+}
+.tdd_left div{
+	margin-bottom:0.12rem;
+}
+
+.tdd_num{
+	font-size:0.68rem;
+}
+.tdd_mid{
+	position:relative;
+	width:2.1rem;
+	float:left;
+}
+.addtext{
+	text-align:center;
+	color:#fff;
+	font-size:0.24rem;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0.3rem;
+	width:1.46rem;
+	height:1.46rem;
+	border-radius:50%;
+	border:0.01rem solid #3492e9;
+}
+.addtext span{
+	line-height:1.2rem;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0.13rem;
+	width:1.2rem;
+	height:1.2rem;
+	background:#1371c8;
+	border-radius:50%;
+}
+.addlineleft_v{
+	width:0.02rem;
+	height:0.96rem;
+	background:#3492e9;
+	position:absolute;
+	left:0;
+	top:0.52rem;
+}
+.addlineright_v{
+	width:0.02rem;
+	height:0.96rem;
+	background:#3492e9;
+	position:absolute;
+	right:0;
+	top:0.52rem;
+}
+.addlineleft_t{
+	width:0.26rem;
+	height:0.02rem;
+	background:#3492e9;
+	position:absolute;
+	left:0.02rem;
+	top:1rem;
+}
+.addlineright_t{
+	width:0.26rem;
+	height:0.02rem;
+	background:#3492e9;
+	position:absolute;
+	right:0.02rem;
+	top:1rem;
+}
+.addcircleleft{
+	width:0.13rem;
+	height:0.13rem;
+	position:absolute;
+	top:0.93rem;
+	left:0.28rem;
+	border:0.01rem solid #56a7f1;
+	border-radius:50%;
+	background:#3492e9;
+}
+.addcircleright{
+	width:0.13rem;
+	height:0.13rem;
+	position:absolute;
+	top:0.93rem;
+	right:0.28rem;
+	border:0.01rem solid #56a7f1;
+	border-radius:50%;
+	background:#3492e9;
+}
+.addbtn{
+	background:#3492e9;
+	border-radius:0.5rem;
+	width:6rem;
+	height:0.5rem;
+	margin-left:auto;
+	text-align:center;
+	line-height:0.5rem;
+	margin-right:auto;
+	margin-top:0.42rem;
+}
+.addbtn:hover{
+	background:#2988e0;
+}
+.addbtn a{
+	background:url(./images/work/client/footprint/ft_arrow_right.png) no-repeat right;
+	background-size:0.15rem;
+	padding-right:0.25rem;
+	color:#fff;
+}
+.addbtn:hover a{
+	color:#e0eaf9
+}

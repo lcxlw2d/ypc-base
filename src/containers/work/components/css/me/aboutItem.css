@@ -1,0 +1,20 @@
+.li {
+    border-bottom: 1px solid #eee;
+    padding: 8px 10px;
+    min-height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+}
+.li:after{
+    content:"";
+    display: block;
+    clear:both;
+}
+.li .content{
+    float: right;
+    max-width: 80%;
+    text-align: right;
+    word-break: break-all;
+    line-height: 20px;
+    padding: 6px 0;
+}

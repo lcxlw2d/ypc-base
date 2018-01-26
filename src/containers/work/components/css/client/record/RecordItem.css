@@ -1,0 +1,204 @@
+.my_recording_inner{
+	position: relative;
+	min-height: 63px;
+	left: 0;
+	right: 0;
+	z-index: 9;
+	padding: 12px 10px;
+	background: #fff;
+    border-bottom: 1px solid #eee;
+}
+.my_recording_inner:hover,.my_recording_inner:focus{
+	background:#fff8f8;
+}
+.rec_choose {
+    width: 16px;
+    height: 16px;
+    background: url(./images/work/client/record/box_choose.png) no-repeat;
+    background-size: 100%;
+    float: left;
+    margin-top: 22px;
+}
+.rec_choose_on{
+	background:url(./images/work/client/record/box_choose_on.png) no-repeat;
+	background-size:100%;
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-top: 22px;
+}
+.rec_text {
+    margin-left: 25px;
+    margin-right: 45px;
+}
+.rec_text p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 3px;
+    line-height: 18px;
+}
+.rec_text p.c6 {
+    font-size: 13px;
+}
+.rec_text p.font15 {
+    font-size: 15px;
+    font-family: Microsoft Yahei, tahoma, arial, 宋体;
+}
+.list_time_pr {
+    padding-top: 60px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.time_progress {
+    width: 100%;
+    height: 2px;
+    margin-top: -14px;
+}
+.progress {
+    width: 100%;
+    height: 2px;
+    background: #e9e9e9;
+    position: relative;
+}
+.time {
+    width: 100%;
+    overflow: hidden;
+    font-size: 12px;
+    margin-top: 11px;
+}
+.now_time {
+    color: #ff5555;
+    float: left;
+}
+.all_time {
+    float: right;
+    color: #666;
+}
+.btn {
+    width: 14px;
+    height: 14px;
+    background: #ffeeee;
+    border: 2px solid #ff7373;
+    border-radius: 50%;
+    position: absolute;
+    top: -8px;
+    left: 0%;
+}
+.bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #ff7373;
+    display: block;
+}
+.btn_stop{
+	float: right;
+	width:24px;
+	height:24px;
+	background:url(./images/work/client/record/btn_stop.png) no-repeat;
+	background-size:100%;
+}
+.btn_stop_c{
+    top: 29px;
+    position: absolute;
+    right: 40px;
+    float: right;
+	width:24px;
+	height:24px;
+	background:url(./images/work/client/record/btn_stop.png) no-repeat;
+	background-size:100%;
+}
+.btn_play{
+	float: right;
+	width:24px;
+	height:24px;
+	background:url(./images/work/client/record/btn_play.png) no-repeat;
+	background-size:100%;
+}
+.btn_play_c{
+    float: right;
+	width:24px;
+	height:24px;
+	background:url(./images/work/client/record/btn_play.png) no-repeat;
+	background-size:100%;
+    top: 29px;
+    position: absolute;
+    right: 40px;
+}
+.btn_look{
+	width: 24px;
+    height: 24px;
+    top: 29px;
+    position: absolute;
+    right: 10px;
+    background: url(./images/work/client/record/btn_look.png) no-repeat;
+    background-size: 100%;
+}
+.btn_matching{
+	width: 24px;
+    height: 24px;
+    top: 29px;
+    position: absolute;
+    right: 10px;
+	background:url(./images/work/client/record/btn_matching.png) no-repeat;
+	background-size:100%;
+}
+.my_recording_list li .btn_play,.my_recording_list li .btn_stop{
+    top: 29px;
+    position: absolute;
+    right: 10px;
+}
+.cloud_rec .btn_stop,.cloud_rec .btn_play{
+	right:42px !important
+}
+.hide_btn{
+	position: absolute;
+	right: -132px;
+	bottom: 0;
+	top:0;
+    height:87px;
+}
+.hide_btn a{
+	color:#fff;
+	height:100%;
+	display:block;
+	width:66px;
+	text-align:center;
+	float:left;
+}
+.hide_btn a.hide_btn_ico01{
+	background:#818181;
+}
+.hide_btn a.hide_btn_ico01 i{
+	background:url(./images/work/client/record/icon_crash.png) no-repeat 50% 0;
+	background-size:100%;
+	display:block;
+	width:24px;
+	height:24px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	margin-bottom:8px;
+}
+.hide_btn a.hide_btn_ico02{
+	background: #ff8181;
+}
+.hide_btn a.hide_btn_ico02 i{
+	background:url(./images/work/client/record/icon_pencil.png) no-repeat 50% 0;
+	background-size:100%;
+	display:block;
+	width:24px;
+	height:24px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	margin-bottom:8px;
+}
+.my_recording_inner  .btn_play, .my_recording_inner .btn_stop {
+    top: 29px;
+    position: absolute;
+    right: 10px;
+}

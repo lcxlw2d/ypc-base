@@ -1,0 +1,92 @@
+[
+    {
+        "itemId": 1,
+        "itemName": "持仓股大幅波动",
+        "itemSummary": "持仓股当天涨跌幅超过一定幅度的客户",
+        "itemType": 1,
+        "orderSec": 1,
+        "recStatus": "1",
+        "updateTime": 1508915479000
+    },
+    {
+        "itemId": 2,
+        "itemName": "持仓股大幅盈亏",
+        "itemSummary": "持仓股累计盈利/亏损超过一定幅度的客户",
+        "itemType": 1,
+        "orderSec": 2,
+        "recStatus": "1",
+        "updateTime": 1508915479000
+    },
+    {
+        "itemId": 3,
+        "itemName": "融资融券授信成功",
+        "itemSummary": "融资融券授信成功的客户",
+        "itemType": 1,
+        "orderSec": 3,
+        "recStatus": "1",
+        "updateTime": 1508915479000
+    },
+    {
+        "itemId": 4,
+        "itemName": "大额资金转账",
+        "itemSummary": "账户资金转入/转出超过一定金额或比例的客户",
+        "itemType": 1,
+        "orderSec": 4,
+        "recStatus": "1",
+        "updateTime": 1508915479000
+    },
+    {
+        "itemId": 5,
+        "itemName": "新股提示",
+        "itemSummary": "新股中签、持有新股上市/开板的客户",
+        "itemType": 1,
+        "orderSec": 5,
+        "recStatus": "1",
+        "updateTime": 1508915479000
+    },
+    {
+        "itemId": 6,
+        "itemName": "持仓股公告",
+        "itemSummary": "持仓股配股缴款、分红到账的客户",
+        "itemType": 1,
+        "orderSec": 6,
+        "recStatus": "1",
+        "updateTime": 1508915479000
+    },
+    {
+        "itemId": 7,
+        "itemName": "产品开放期",
+        "itemSummary": "持有金融产品即将开放的客户",
+        "itemType": 1,
+        "orderSec": 7,
+        "recStatus": "1",
+        "updateTime": 1508915479000
+    },
+    {
+        "itemId": 8,
+        "itemName": "产品到期",
+        "itemSummary": "持有金融产品即将到期的客户",
+        "itemType": 1,
+        "orderSec": 8,
+        "recStatus": "1",
+        "updateTime": 1508915479000
+    },
+    {
+        "itemId": 9,
+        "itemName": "服务关系变更",
+        "itemSummary": "初次建立挂接关系的客户",
+        "itemType": 1,
+        "orderSec": 9,
+        "recStatus": "1",
+        "updateTime": 1508915479000
+    },
+    {
+        "itemId": 10,
+        "itemName": "客户生日",
+        "itemSummary": "即将生日的客户",
+        "itemType": 1,
+        "orderSec": 10,
+        "recStatus": "1",
+        "updateTime": 1508915479000
+    }
+]

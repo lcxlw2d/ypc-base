@@ -1,0 +1,26 @@
+.frame{
+    height:330px;
+    position: relative;
+    margin:0 15px;
+}
+.item{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background: #f8f8f8;
+    border: 1px solid #f8f8f8;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.item.on {
+    background: #f4faff;
+    border: 1px solid #3492e9;
+    color: #3492e9;
+}
+
+@media screen and (max-width: 320px){
+	.frame{
+	    height:300px;
+	}
+}

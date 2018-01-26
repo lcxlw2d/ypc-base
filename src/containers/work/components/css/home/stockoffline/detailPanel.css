@@ -1,0 +1,86 @@
+.networkbox{
+	background-color:#3492e9;
+	border-top:1px solid #85bef2;
+	overflow:hidden;
+	position:relative
+}
+.icon_rocket{
+	position:absolute;
+	top:48px;
+	width:40px;
+	height:40px;
+	left:50%;
+	margin-left:-20px;
+	background:url(./images/work/home/icon_rocket.png) no-repeat;
+	background-size:100%;
+}
+.network_innerbox{
+	width:50%;
+	float:left
+}
+.network_pro_name{
+	padding:12px 0;
+	border-right:1px solid #85bef2
+}
+.network_pro_name p,.network_market_value p,.network_measure_time p,.network_inquiry_time p{
+	color:#fff;
+	text-align:center
+}
+.network_pro_name p.font21{
+	font-weight:bold;
+	margin-bottom:10px;
+    font-size: 21px;
+}
+.network_market_value{
+	padding:12px 0;
+}
+.network_market_value p.font21{
+	margin-bottom:10px;
+    font-size: 21px;
+    font-family: impact;
+}
+.network_market_value p span{
+	position:relative
+}
+.network_market_value .market_value_type{
+	display: block;
+    width: 30px;
+    height: 30px;
+    background: url(./images/work/home/icon_bubble.png) no-repeat;
+    background-size: 100%;
+    top: -8px;
+    right: -32px;
+	line-height:30px;
+	text-align:center;
+	font-style:normal;
+	font-size:14px;
+    position: absolute;
+}
+.network_measure_time{
+	padding:12px 0 2px 0;
+	border-right:1px solid #85bef2;
+	border-top:1px solid #85bef2;
+}
+.network_measure_time p,.network_inquiry_time p{
+	margin-bottom:10px;
+}
+.network_inquiry_time{
+	padding:12px 0 2px 0;
+	border-top:1px solid #85bef2;
+}
+.network_list{
+	background-color:#fff;
+}
+.network_list_floor{
+	border-bottom:1px solid #eee;
+	overflow:hidden;
+}
+.network_tip {
+    line-height: 18px;
+    background: url(./images/work/home/icon_tip4.png) no-repeat #F5F5F5 10px;
+    background-size: 20px;
+    padding-left: 40px;
+    padding-bottom: 8px;
+    font-size: 12px;
+    padding-top: 6px;
+}

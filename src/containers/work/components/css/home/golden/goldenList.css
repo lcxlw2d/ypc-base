@@ -1,0 +1,44 @@
+.frame{
+    position:fixed;
+    left:0;
+    right:0;
+    top:150px;
+    bottom:0;
+}
+.touch{
+    background-color: #eee;
+}
+.sgj_single{
+	padding:10px 0;
+	border-top:10px solid #f9f9f9;
+}
+.sgj_tit{
+	margin:0 10px;
+}
+.sgj_name{
+	font-size:16px;
+    background: url(./images/work/home/left_border02.png) no-repeat left;
+	background-size:3px 20px;
+	padding-left:15px;
+}
+.sgj_int{
+	border-radius:10px;
+	margin:10px 10px 0;
+    background-color:#fff;
+	border:1px solid #eee;
+}
+.bdbt{
+	border-bottom:1px solid #eee;
+}
+.int_layer{
+	overflow:hidden;
+	padding:10px 0 10px 10px;
+}
+.sgj_w50{
+	float:left;
+	width:50%
+}
+.sgj_w100{
+	float:left;
+	width:100%
+}

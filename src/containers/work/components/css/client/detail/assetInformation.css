@@ -1,0 +1,64 @@
+.asset_list{
+	overflow:hidden;
+}
+.asset_innerbox{
+	width:50%;
+	float:left;
+	position:relative;
+}
+.marketValue{
+	margin-right:-1px;
+	border-right:1px solid #eee;
+	border-bottom:1px solid #eee;
+	background:url(./images/work/client/icon_asset01.png) no-repeat 10px 50%;
+	background-size:40px;
+	padding:10px 10px 10px 60px;
+}
+.marketValue p{
+	margin-bottom:4px;
+}
+.marketValue p.c9{
+	line-height:18px
+}
+.marketValue .redbold {
+    font-family: impact;
+    font-size: 20px;
+    width: 100%;
+    display: block;
+    line-height: 21px;
+    color: #ff5555;
+}
+.marketValue .purple{
+    color: #a596c0;
+}
+.marketValue .blue{
+    color: #6dbce3;
+}
+.marketValue .green{
+    color: #72bba2;
+}
+.as_product{
+	background:url(./images/work/client/icon_asset02.png) no-repeat 10px 50%;
+	background-size:40px;
+}
+.as_capital{
+	background:url(./images/work/client/icon_asset03.png) no-repeat 10px 50%;
+	background-size:40px;
+}
+.as_liabilities{
+	background:url(./images/work/client/icon_asset04.png) no-repeat 10px 50%;
+	background-size:40px;
+}
+.asset_layer{
+	position:absolute;
+	left:0;
+	right:-1px;
+	top:0;
+	bottom:0;
+	padding:10px;
+	border:1px solid #ff7373;
+	background:#fff
+}
+.asset_layer p{
+	line-height:21px;
+}

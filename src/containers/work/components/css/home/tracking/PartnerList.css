@@ -1,0 +1,29 @@
+.frame{
+    position:fixed;
+    left:0;
+    right:0;
+    top:105px;
+    bottom:0px;
+}
+.tableList{
+    position: absolute;
+    left: 0;
+    top: 37px;
+    right: 0;
+    bottom: 75px;
+}
+.boderleftno{
+	border-left:none
+}
+
+.tr:nth-child(2n){
+        background-color: #f9f9f9;
+}
+.tr .td{
+    text-align: center;
+}
+.thead .th{
+    text-align: center;
+    position: relative;
+    z-index: 10000;
+}

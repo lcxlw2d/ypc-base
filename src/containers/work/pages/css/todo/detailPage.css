@@ -1,0 +1,47 @@
+.bk{
+    background-color: #dfeff7;
+}
+.waiting_detail {
+    padding: 20px;
+    background-color: #fff;
+}
+.waiting_detail h1{
+	font-size:22px;
+	font-weight:100
+}
+.waiting_detail p{
+	font-size:14px;
+	color:#999;
+	margin-top:10px;
+}
+.waiting_detail p span{
+    margin-right:10px;
+}
+.waiting_box{
+	padding:20px;
+	background-color:#dfeff7;
+}
+.wt_innerboz{
+    height:404px;
+    overflow: auto;
+	background:url(./images/work/todo/bg_waitingbox.png) no-repeat;
+	background-size:100%;
+	padding:20px;
+	line-height:21px;
+    position: relative;
+}
+.time{
+    text-align: right;
+    position: absolute;
+    right: 20px;
+    top: 210px;
+}
+.underline{
+    text-decoration:underline
+}
+/*iphone5等小屏幕兼容*/
+@media only screen and (max-width:320px){
+  .time{
+      top: 172px;
+  }
+}

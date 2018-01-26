@@ -1,0 +1,129 @@
+.home_mot_list{
+	overflow:hidden;
+	background-color:#fff;
+}
+.iconBox{
+	float:left;
+	width:25%;
+	padding-top:10px;
+	padding-bottom:15px;
+	text-align:center;
+	position: relative;
+}
+.iconBox.touch{
+	background-color: #eee;
+}
+.iconBox a{
+	font-size:14px;
+	white-space: nowrap;
+}
+.icon{
+	position: relative;
+	height:50px;
+	width:40px;
+	margin: 0 auto;
+	position:relative;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:38px;
+}
+/*小犇图标背景图开始*/
+.margin{
+	background-image:url(./images/work/home/icon_bb01.png);
+}
+.golden{
+	background-image:url(./images/work/home/icon_bb02.png);
+}
+.time{
+	background-image:url(./images/work/home/icon_bb03.png);
+}
+.newstock{
+	background-image:url(./images/work/home/icon_bb09.png);
+}
+.productdeadline{
+	background-image:url(./images/work/home/icon_bb05.png);
+}
+.footprint{
+	background-image:url(./images/work/home/icon_bb06.png);
+}
+.tracking{
+	background-image:url(./images/work/home/icon_bb07.png);
+}
+.server{
+	background-image:url(./images/work/home/icon_bb08.png);
+}
+.marketingActivity{
+	background-image: url(./images/work/home/icon_marketingActivity.png)
+}
+
+
+/*小犇图标背景图结束*/
+.count{
+	position: absolute;
+	right: -7px;
+  	top: 4px;
+	width:12px;
+	height:12px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 13px;
+	border-radius: 10px;
+    /* background-color: #ff7373; */
+    background-color: #f00;
+	color:#fff;
+}
+
+.dot{
+	position: absolute;
+	top: 7px;
+    left: -13px;
+    height: 8px;
+    width: 8px;
+	border-radius: 50%;
+	background-color: #f00;
+}
+
+.orange{
+	color:#ffa82a
+}
+.red{
+	color:#ff7373
+}
+.blue{
+	color:#5fa2ff
+}
+.purpple{
+	color:#a87ec3
+}
+
+.case{
+    overflow: hidden;
+}
+
+.vs_nav{
+	width:100%;
+	margin:10px 0;
+	text-align:center;
+}
+.vs_nav li{
+    display:inline-block;
+    background-color: #ddd;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    cursor: pointer;
+    margin: 0 5px;
+    border: 1px solid #eee;
+}
+
+.vs_nav li.on{
+    background:#2e8be2;
+    border: 1px solid #2e8be2;
+}
+
+@media screen and (max-width: 320px){
+	.iconBox{
+	    overflow: hidden;
+		text-overflow: ellipsis;
+	}
+}

@@ -1,0 +1,13 @@
+.recruit_div {
+    padding: 0 10px;
+    line-height: 30px;
+    overflow: hidden;
+}
+.recruit_div_20 {
+    width: 35%;
+    float: left;
+}
+.recruit_div_60 {
+    width: 65%;
+    float: left;
+}

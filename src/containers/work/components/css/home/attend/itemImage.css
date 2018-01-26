@@ -1,0 +1,12 @@
+.attendance_intr_pimg {
+    background-image: url(images/work/home/20170206152059.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: left;
+    width: 65px;
+    height: 65px;
+    margin-right: 3px;
+    margin-bottom:3px;
+    vertical-align: top;
+}

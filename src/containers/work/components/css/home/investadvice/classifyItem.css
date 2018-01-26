@@ -1,0 +1,42 @@
+.mot_sg01,.mot_sg02,.mot_sg03,.mot_sg04,.mot_sg05{
+	border-radius:6px;
+	margin:0 10px 10px 10px;
+	border: 5px solid rgba(0, 0, 0, 0.05)
+}
+.mot_sg01 .mot_sg_inner,.mot_sg02 .mot_sg_inner,.mot_sg03 .mot_sg_inner,.mot_sg04 .mot_sg_inner,.mot_sg05 .mot_sg_inner{
+	width:100%;
+	border-radius:4px;
+	height:90px;
+}
+.mot_sg01 .mot_sg_inner{
+	background:url(./images/work/home/investadvice/motbanner_big01.png) no-repeat 50% 50%;
+	background-size:100%;
+}
+.mot_sg02 .mot_sg_inner{
+	background:url(./images/work/home/investadvice/motbanner_big02.png) no-repeat 50% 50%;
+	background-size:100%;
+}
+.mot_sg03 .mot_sg_inner{
+	background:url(./images/work/home/investadvice/motbanner_big03.png) no-repeat 50% 50%;
+	background-size:100%;
+}
+.mot_sg04 .mot_sg_inner{
+	background:url(./images/work/home/investadvice/motbanner_big04.png) no-repeat 50% 50%;
+	background-size:100%;
+}
+.mot_sg05 .mot_sg_inner{
+	background:url(./images/work/home/investadvice/motbanner_big05.png) no-repeat 50% 50%;
+	background-size:100%;
+}
+.mot_sg_inner h1{
+	font-weight:100;
+	text-align:center;
+	color:#fff;
+	padding:20px 0 10px 0;
+	line-height:24px;
+	font-size:18px;
+}
+.mot_sg_inner p{
+	text-align:center;
+	color:#fff;
+}

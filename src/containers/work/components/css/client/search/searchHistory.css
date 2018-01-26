@@ -1,0 +1,49 @@
+.hiscontainer{
+	background-color:#fff;
+	position:absolute;;
+	left:0;
+	right:0;
+	top:48px;
+	bottom:0px;
+	z-index: 0;
+}
+
+.norecord{
+	color:#ccc;
+	text-align: center;
+}
+
+.searchhis{
+	background-color:#fff;
+	padding:0 10px;
+	color:#999;
+	line-height:36px;
+	border-bottom:1px solid #ddd;
+}
+.clearhis{
+	float: right;
+    border-radius: 4px;
+    height: 22px;
+    padding: 0 10px;
+    line-height: 22px;
+    margin-top: 6px;
+    border: 1px solid #3492e9;
+    color: #fff;
+		background-color:#3492e9;
+}
+.hislist{
+	padding:15px 10px 15px 0;
+	background-color:#fff;
+}
+.hislist a{
+	display:inline-block;
+	border-radius:4px;
+	margin-left:10px;
+	padding:7px 10px;
+	margin-bottom:10px;
+	background-color:#f7f7f7;
+}
+.hislist a:focus{
+	color:#fff;
+	background-color:#3492e9;
+}

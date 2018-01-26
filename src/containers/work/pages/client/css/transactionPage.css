@@ -1,0 +1,18 @@
+.opening{
+	margin-top: 30px;
+}
+.opening .noAccess{
+	height:120px;
+	width:120px;
+	margin: 0 auto;
+	background:url(./images/work/client/img_empty.png) no-repeat center;
+	background-size:120px;
+}
+.opening p{
+	text-align: center;
+	line-height:24px;
+}
+.opening p.font18{
+	font-size:18px;
+	font-weight:bold
+}

@@ -1,0 +1,207 @@
+.ecard_popup{
+	position:fixed;
+	left:0;
+	right:0;
+	bottom:0;
+	top:0;
+	background:url(/assets/images/work/client/bg_black60.png) repeat;
+	width:100%;
+	height:100%;
+	z-index:9999;
+	overflow: auto;
+}
+.ecard_box{
+	background:url(/assets/images/work/client/bg06.png) no-repeat top #fff;
+	background-size:100%;
+	border-radius:15px;
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 10%;
+}
+.pp_top{
+	height:44px;
+	text-align:center;
+	color:#fff;
+	font-size:16px;
+	line-height:44px;
+	border-radius:13px 13px 0 0;
+	background-color:#3492e9;
+
+}
+.left{
+	display:block;
+	float:left;
+	width:50%;
+	text-align:center;
+	border-radius:10px 10px 0 0;
+}
+.right{
+	display:block;
+	float:left;
+	width:50%;
+	text-align:center;
+	border-radius:10px 10px  0 0;
+}
+.on{
+	color:#333;
+	background-color:#fff;
+}
+.nobg{
+	background:#fff;
+	width:85%;
+	margin-top:40%;
+}
+
+.text_password{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    height: 44px;
+    display: block;
+    line-height: 44px;
+    margin-top: 18px;
+    font-size: 14px;
+    padding-left: 10px;
+	color:#999;
+}
+.text_password:focus{
+    background-color: #fff;
+    border: 1px solid #2da8e1;
+	color:#666;
+}
+.first{
+	padding-top:15px;
+	margin-left:30px;
+	clear:both;
+}
+.pp_btns{
+	padding-bottom:30px;
+	width:85%;
+	margin-top:30px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.pp_btns a{
+	display:inline-block;
+	width:46%;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	border:1px solid #ddd;
+	border-radius:10px;
+}
+.pp_btns a:hover,.pp_btns a:focus{
+	border:1px solid #52bbeb;
+	background-color:#52bbeb;
+	color:#fff;
+}
+.btn_pp_ok{
+	float:right;
+	color:#2da8e1;
+	border:1px solid #2da8e1 !important;
+}
+
+
+.text_password_left{
+    width: 50%;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    height: 44px;
+    display: block;
+    line-height: 44px;
+    margin-top: 15px;
+	margin-bottom:  20px;
+    font-size: 14px;
+    padding-left: 10px;
+	color:#999;
+	margin-left:7.5%;
+	float:left;
+}
+.text_password_left:focus{
+    background-color: #fff;
+    border: 1px solid #3492e9;
+	color:#666;
+}
+.password_button{
+	width: 25%;
+    background-color: #3492e9;
+    border: 1px solid #3492e9;
+    border-radius: 5px;
+    height: 48px;
+    display: block;
+    line-height: 48px;
+    margin-top: 15px;
+	margin-bottom:  20px;
+	padding:0;
+    font-size: 13px;
+	text-align:center;
+	color:#fff;
+	float:right;
+	margin-right:7.5%;
+}
+.password_button.grey{
+	background:#cacaca;
+	font-size:14px;
+	border: 1px solid #cacaca;
+	color:#000
+}
+.password_button.send_ok{
+	background:#cacaca;
+	font-size:16px;
+	border: 1px solid #cacaca;
+	color:#000
+}
+.edit_phone_tip{
+	clear:both;
+	margin:0 7.5%;
+}
+.edit_phone_tip .edit_phone_text{
+	float:right;
+	margin-top:-10px;
+	text-decoration:underline
+}
+.edit_phone_box{
+	border-radius:12px;
+	background-color:#f2f2f2;
+	padding:15px;
+	margin-top:15px;
+	position:relative
+}
+.edit_phone_box p{
+	line-height:18px;
+	color:#333
+}
+.edit_top{
+	width:20px;
+	height:20px;
+	position:absolute;
+	right:10%;
+	top:-21px;
+	z-index: 2;/*兼容ie8-*/
+}
+.topArrow1,.topArrow2{
+	width:0;
+	height:0;
+	display:block;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index: 5;/*兼容ie8-*/
+	border-top:10px transparent dashed;
+	border-left:10px transparent dashed;
+	border-right:10px transparent dashed;
+	border-bottom:10px white solid;
+	overflow:hidden;
+}
+.topArrow2{
+	top:1px;/*重要*/
+	border-bottom:10px #f2f2f2 solid;
+}
+.clear {
+	clear: both;
+}

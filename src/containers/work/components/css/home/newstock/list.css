@@ -1,0 +1,31 @@
+.header th {
+    padding: 5px 3px;
+    line-height: 16px;
+    color: #666;
+    font-size: 13px;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    border-left: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    word-break: break-all;
+}
+.header th:first-child{
+    border-left:none;
+}
+
+.tr:nth-child(2n+1){
+    background-color: #f9f9f9;
+}
+
+.tr td {
+    padding: 11px 9px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+.tr td p {
+    line-height: 18px;
+}
+td.center{
+    text-align: center;
+}

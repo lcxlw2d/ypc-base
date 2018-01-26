@@ -1,0 +1,53 @@
+.content{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+.greyBackground{
+  background-color: #F5F5F5;
+}
+.yxhdpm_banner{
+	height:25%;
+}
+.yxhdpm_banner img{
+	width:100%;
+	height:100%;
+	display:block
+}
+.yxhdpm_sm{
+    background: #fff;
+    overflow: hidden;
+    padding:10px;
+}
+.yxhdpm_sm .yxhdpm_title{
+	font-size:16px;
+	line-height:28px;
+}
+.yxhdpm_sm_main{
+	font-size:13px;
+	line-height:20px;
+	color:#666;
+}
+.g_full_content{
+    position:fixed;
+    top:105px;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling : touch;
+}
+
+.top{
+    position:fixed;
+    top:64px;
+    bottom:0;
+    left:0;
+    right:0;
+}

@@ -1,0 +1,251 @@
+.cs_user_account_rong{
+    float:left;
+    width:100%;
+	padding-top: 6px;
+}
+.cs_user_account_rong span{
+	float:left;
+}
+.rong{
+	border:1px solid #fff;
+	border-radius:50%;
+	width:16px;
+	font-size:12px;
+	height:16px;
+    line-height: 16px;
+	text-align:center;
+	display:block;
+	margin-left:6px;
+	margin-top:-2px;
+}
+
+.serveybox {
+    width: 100%;
+    background: url(./images/work/client/bg02.jpg) no-repeat top;
+    background-size: 100% 100%;
+    overflow: hidden;
+    padding-top: 50px;
+}
+.sv_top:after {
+    display: block;
+    content: "";
+    height: 0;
+    clear: both;
+}
+.sv_bot div {
+    width: 33.3%;
+    float: left;
+}
+.sv_user {
+    position: relative;
+    float: left;
+    margin: 15px 10px 0 15px;
+    color: #fff;
+}
+.sv_int {
+    margin-left: 90px;
+}
+.sv_int ul {
+    margin-right: 15px;
+    padding-top: 15px;
+}
+.sv_int li {
+    overflow: hidden;
+    padding-left: 8px;
+    line-height: 22px;
+    color: #fff
+}
+.sv_int li.sv_bg {
+    padding: 6px 8px;
+    margin-bottom: 5px;
+}
+.sv_int li span {
+    float: left
+}
+.cs_user_pic {
+    float: left;
+    position: relative;
+    width:60px;
+    height: 60px;
+}
+.cs_user_pic img {
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    border-radius: 50%;
+    width:60px;
+    height: 60px;
+}
+.cs_user_name {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+}
+.cs_user_age{
+	float:left;
+	margin-left: 10px;
+    border-left: 1px solid #fff;
+    padding-left: 10px;
+}
+.cs_user_effective{
+	line-height: 16px;
+    float: left;
+    margin-top: -3px;
+    margin-left: 20px;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    padding: 0 5px 2px 5px;
+}
+.sv_bot {
+    padding: 10px 0;
+    background: url(./images/work/client/bg_byte03.png) repeat;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.sv_bot div p {
+    border-right: 1px solid #767185;
+    text-align: center;
+    margin-right: -1px;
+    line-height: 20px;
+}
+.mt0 {
+    padding-top: 0 !important;
+}
+.floor_item {
+    padding-top: 10px;
+}
+.cums_asset {
+    overflow: hidden;
+    background-color: #fff;
+}
+.cums_asset .w45 {
+    width: 45%;
+    float: left
+}
+.cums_asset .w55 {
+    width: 55%;
+    float: left
+}
+.cums_asset .redbold {
+    font-family: impact;
+    font-size: 18px;
+    width: 100%;
+    display: block;
+    line-height: 21px;
+    color: #ff5555;
+}
+.total_assets {
+    border-right: 1px solid #eee;
+    background: url(./images/work/client/ico_total_asset.png) no-repeat 10px 55%;
+    background-size: 24px;
+    padding-left: 40px;
+    padding-top: 6px !important;
+    padding-bottom: 17px !important;
+}
+.total_assets p {
+    margin-top: 7px;
+    overflow: hidden;
+}
+.left {
+    float: left;
+}
+.h50 {
+    overflow: hidden;
+}
+.h50 span {
+    float: left;
+}
+.assetFrame{
+    border-bottom: 1px solid #eee;
+}
+.assetFrame:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.btn_copy {
+    background: url(./images/work/client/icon_copy.png) no-repeat 10px 50%;
+    line-height: 16px;
+    background-size: 16px 18px;
+    border-radius: 3px;
+    padding: 0 6px 2px 6px;
+    color: #fff;
+    float: right;
+    margin-right: 10px;
+    width: 16px;
+    height: 18px;
+}
+.btn_copy_mt{
+    margin-top:-2px
+}
+.w10 {
+    clear: both;
+    background: url(./images/work/client/ico_location.png) no-repeat 10px 50%;
+    background-size: 14px;
+    padding: 10px 0;
+    padding-left: 34px;
+    border-bottom: 1px solid #eee;
+}
+.cs_user_account {
+    float: left;
+}
+.cs_left {
+    margin-left: 75px;
+}
+.commission {
+    margin: 4px 0 4px 10px;
+    padding-left: 10px;
+    font-size: 14px;
+    border-left: 3px solid #ff7373
+}
+.single_commission {
+    float: left;
+    width: 33.3%;
+}
+.single_commission p {
+    padding: 6px 0;
+    text-align: center;
+}
+.single_commission p.sgcs_tit {
+    border-bottom: 1px solid #eee;
+    font-size: 13px;
+    color:#666
+}
+.icon_tip02 {
+    background: url(./images/work/client/icon_tip2.png) no-repeat left top;
+    background-size: 14px;
+    display: block;
+    width: 14px;
+    height: 14px;
+    float: left;
+    margin-left: 5px;
+}
+.cs_uder_int {
+    padding-top: 7px;
+}
+/*iphone5等小屏幕兼容*/
+@media only screen and (max-width:320px){
+  .cs_user_effective {
+      margin-left: 10px;
+  }
+  .cs_user_age {
+      margin-left: 10px;
+  }
+  .cs_user_pic{
+      width: 50px;
+      height: 50px;
+  }
+  .cs_user_pic img{
+      width: 50px;
+      height: 50px;
+  }
+  .cs_uder_int {
+      padding-top: 5px;
+  }
+  .cs_left {
+      margin-left:12px;
+      margin-top: 5px;
+  }
+}

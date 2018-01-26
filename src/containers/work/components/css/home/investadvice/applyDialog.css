@@ -1,0 +1,60 @@
+.nobg {
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    width: 80%;
+    margin-top: 30%;
+    position: relative;
+}
+.pp_top{
+	height:44px;
+	text-align:center;
+	color:#fff;
+	font-size:16px;
+	line-height:44px;
+	border-radius:13px 13px 0 0;
+	background-color:#3492e9;
+    letter-spacing: 1px;
+}
+.pp_mid{
+    padding:0 10px;
+}
+.pp_mid .pp_text{
+    line-height: 30px;
+    font-size:15px;
+}
+.pp_mid textarea{
+    width:96%;
+    height:250px;
+    padding:5px;
+    resize:none;
+    border-color: #ddd;
+}
+.pp_btns{
+    width:85%;
+	padding:10px 0;
+	margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+}
+.pp_btns .btn_pp_ok{
+	display:inline-block;
+	width:44%;
+	height:38px;
+    color:#3492e9;
+	line-height:38px;
+	text-align:center;
+	border:1px solid #3492e9;
+	border-radius:10px;
+    margin: 0 2%;
+}
+.close{
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    width: 22px;
+    height: 22px;
+    background: url(./images/work/home/investadvice/close.png);
+    background-size: 22px;
+}

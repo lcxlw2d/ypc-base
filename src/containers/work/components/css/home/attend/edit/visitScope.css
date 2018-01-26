@@ -1,0 +1,32 @@
+.pattern{
+    font-size: .28rem;
+    color: #fff;
+    line-height: 44px;
+}
+
+.item{
+    border-bottom: 1px solid #cfd9dc;
+    padding: 8px 10px;
+    min-height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+}
+.team_share {
+    float: left;
+}
+.team_share p {
+    line-height: 21px;
+}
+
+.icon_choose {
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    background: url(./images/work/home/checkbox.png) no-repeat;
+    background-size: 100%;
+}
+
+.icon_choose.on {
+    background-image: url(./images/work/home/checkbox_sel.png);
+}

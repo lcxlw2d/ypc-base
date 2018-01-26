@@ -1,0 +1,45 @@
+.sgj_list{
+	padding:15px 0;
+	background-color:#fff;
+}
+.sgj_single{
+	padding-top: 10px;
+	border-bottom:1px solid #eee;
+}
+.sgj_single.touch{
+	background-color: #eee;
+}
+.sgj_tit{
+	margin:0 10px;
+}
+.sgj_name{
+	font-size:16px;
+	line-height: 20px;
+}
+.sgj_int{
+	background-color:#eff7ff;
+	border-radius:10px;
+	margin:10px;
+}
+.int_layer{
+	overflow:hidden;
+	border-bottom:1px solid #fff;
+	padding:10px 0 10px 10px;
+}
+.sgj_w45{
+	float:left;
+	width:45%
+}
+.sgj_w55{
+	float:left;
+	width:55%
+}
+.sgj_w45 span{
+	line-height:18px
+}
+.sgj_w55 span{
+	line-height:18px
+}
+.bg_f7 .sgj_int{
+	background-color:#fff7f7;
+}

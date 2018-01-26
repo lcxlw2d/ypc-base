@@ -1,0 +1,19 @@
+.header th{
+    padding: 10px 0 10px 9px;
+    font-weight: 100;
+    color: #666;
+    border-left: 1px solid #eee;
+    vertical-align: middle;
+    border-bottom: 1px solid #eee;
+}
+.header th:first-child{
+    border-left: none;
+}
+.rows td {
+    padding: 11px 9px 11px 9px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+.rows td p{
+	line-height:18px
+}

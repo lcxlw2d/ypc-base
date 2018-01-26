@@ -1,0 +1,50 @@
+.service_gk{
+	background-color:#fff;
+}
+.service_gk table{
+	border-bottom:1px solid #eee;
+}
+.service_gk td{
+	width:25%;
+}
+.service_gk td.w50{
+	width:50%;
+}
+.service_gk td.w50 .w25{
+	padding-top:5px
+}
+.service_gk td.w50 i{
+	font-style:normal;
+}
+.service_gk td.w33{
+	width:33.3%;
+}
+.service_gk td.w33 .w25{
+	padding-top:5px
+}
+.service_gk td .w25{
+	overflow:hidden;
+	padding-bottom:5px;
+	margin-left: -1px;
+	border-left:1px solid #eee;
+}
+.service_gk td .w25 span{
+	/* width:100%; */
+	display:block;
+	line-height:21px;
+	text-align:center;
+}
+
+.service_gk td .w25 span.pdl10{
+	text-align: left;
+    padding-left: 10px !important;
+	position: relative;
+}
+.borderBottom{
+	border-bottom: 1px solid #eee;
+}
+
+.text{
+	margin-right: 3px;
+	color:#666
+}

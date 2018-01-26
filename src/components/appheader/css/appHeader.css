@@ -1,0 +1,106 @@
+.header{
+	width:100%;
+	background-color:#3492e9;
+	height:44px;
+	padding-top: 20px;
+	top: 0;
+	right:0;
+	left:0;
+	z-index: 99;
+    position: fixed;
+}
+.colorlayer{
+	width:100%;
+	background-color:#2da8e1;
+	height:44px;
+	top: 0;
+	right:0;
+	left:0;
+	z-index: 99;
+    position: fixed;
+}
+.header.transparent{
+	background-color: transparent;
+}
+.header_innerbox{
+	margin: 0 7px;
+    height: 100%;
+	position:relative;
+    line-height: 44px;
+}
+.header_mid_cont{
+    left:48px;
+    right:48px;
+    height: 100%;
+    position: absolute;
+    display: inline-block;
+}
+.center{
+	width: 100%;
+    height: 100%;
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+.multi .center{
+	line-height: 130%;
+}
+.searchbox01{
+	width:100%;
+	height: 100%;
+	position:relative;
+}
+.searchbox02{
+	width:90%;
+	height: 100%;
+	position:relative;
+}
+.searchbox01.multi{
+	margin-top:3px;
+}
+.searchbox01 p.subtitle{
+	position: absolute;
+    top: 23px;
+    font-size: 14px;
+    height: 18px;
+    display: block;
+    line-height: 18px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+.header_left_icon{
+	display: inline-block;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+.header_right_icon{
+	display: inline-block;
+	position: absolute;
+    top: 0;
+	right:0;
+}
+.head_arrow{
+	margin-top:9px;
+	display:inline-block;
+	width:44px;
+	height:32px;
+	background:url(/assets/images/common/appheader/arrow_left.png) no-repeat;
+	background-size: 18px;
+}
+.pattern{
+	line-height: 1;
+}
+.pattern a{
+	color:#fff;
+	font-size:15px;
+	padding: 0px 3px;
+}
+.header.animate{
+	transition:background-color 0.8s;
+}
+.header.red{
+	background-color:#ff5555;
+}

@@ -1,0 +1,76 @@
+.frame{
+    position:fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top:134px;
+	margin-bottom: 59px;
+}
+.tableList{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 57px;
+    overflow: hidden;
+}
+.header th{
+line-height: 1.3;
+    padding: 10px;
+    font-weight: 500;
+    color: #333;
+    vertical-align: middle;
+    border-bottom: 1px solid #eee;
+    border-left: 1px solid #eee;
+}
+.boderleftno{
+	border-left:none
+}
+.case td {
+    line-height: 1.3;
+    padding: 11px 9px 11px 9px;
+    vertical-align: middle;
+}
+.noborder {
+    border: none !important;
+}
+.floor_02_icon{
+	padding-left:20px;
+    display:block;
+    background:url(./images/work/home/xg_icon_gk.png) no-repeat;
+    background-size:16px 16px;
+}
+.floor_03_icon{
+	width: 16px;
+    height: 16px;
+    display: block;
+    margin: auto;
+    background:url(./images/work/home/xg_icon_qxgz.png) no-repeat;
+    background-size: 100%;
+}
+.floor_05_icon {
+    width: 16px;
+    height: 16px;
+    display: block;
+    margin: auto;
+    background: url(./images/work/home/xg_icon_open.png) no-repeat;
+    background-size: 100%;
+}
+.w100{
+    width: 100%;
+}
+.shield {
+    background-color: #f9f9f9;
+    color: #999;
+}
+@media screen and (max-width: 360px){
+.tableList{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 55px;
+    overflow: hidden;
+}
+}
+

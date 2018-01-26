@@ -1,0 +1,51 @@
+.frame{
+    position:fixed;
+    top:112px;
+    left:0;
+    right: 0;
+    bottom:0;
+}
+.header{
+    position: relative;
+}
+.header th{
+    padding:11px 9px 11px 9px;
+    font-weight: 100;
+    color: #666;
+    border-left: 1px solid #eee;
+    vertical-align: middle;
+    border-bottom: 1px solid #eee;
+}
+.header th:first-child{
+    border-left: none;
+}
+
+.tableList{
+    position:absolute;;
+    left:0;
+    top:52px;
+    right:0;
+    bottom:0;
+}
+
+.rows td{
+	padding:11px 9px 11px 9px;
+	line-height:16px;
+}
+.rows td p{
+	line-height:18px
+}
+
+.expire_icon_tip01{
+    display:inline-block;
+    vertical-align: middle;
+    width: 13px;
+    height: 13px;
+    margin-left: 5px;
+    background: url(./images/work/home/icon_tip.png) no-repeat left;
+    background-size: 13px;
+}
+
+.middle{
+    vertical-align: middle;
+}

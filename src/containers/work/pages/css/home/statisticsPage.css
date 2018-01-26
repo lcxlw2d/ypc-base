@@ -1,0 +1,74 @@
+.filterBtn{
+    display: inline-block;
+    line-height: 24px;
+    background:#1e78cc;
+    background-size: 15px;
+    color: #fff;
+    vertical-align: top;
+    margin:10px 0;
+    padding:0px 7px;
+    border-radius: 3px;
+}
+.arrow_down{
+    display: inline-block;
+    height:24px;
+    width:16px;
+    margin-left:3px;
+    background:url('./images/work/home/arrow_right.png') center no-repeat;
+    background-size: 15px;
+    vertical-align: top;
+    transform: rotate(90deg);
+}
+
+.positionFu{
+    position: relative;
+    overflow: hidden;
+}
+.attendancebox {
+	padding-top: 44px;
+}
+.fttop{
+	position:relative;
+	background:#3492e9;
+	overflow:hidden;
+	font-size:0.28rem;
+	padding-bottom:0.38rem;
+}
+.fttime{
+	background:#439ef2;
+	border-radius:0.5rem;
+	width:6.9rem;
+	color:#fff;
+	height:0.5rem;
+	margin-left:auto;
+	text-align:center;
+	line-height:0.5rem;
+	margin-right:auto;
+	margin-top:0.42rem;
+}
+
+.fttop .tdd_left{
+	width:50%
+}
+.ftline{
+	width:0.01rem;
+	height:1.3rem;
+	background:#a3cef5;
+	position:absolute;
+	left:50%;
+	top:1.3rem;
+	margin-left:-0.005rem;
+}
+.tdd_num{
+	font-size:0.68rem;
+}
+.tdd_left{
+	width:2.7rem;
+	float:left;
+	color:#fff;
+	margin-top:0.42rem;
+	text-align:center;
+}
+.tdd_left div{
+	margin-bottom:0.12rem;
+}

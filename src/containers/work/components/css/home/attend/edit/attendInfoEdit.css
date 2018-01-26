@@ -1,0 +1,168 @@
+.atten_summary{
+	border-bottom:1px solid #cfd9dc;
+	background-color:#fff;
+	padding:15px 10px;
+	position: relative;
+}
+.atten_summary:after,
+.photoBox:after{
+	content:"";
+	display: block;
+	clear:both;
+}
+.atten_summary textarea{
+	width:100%;
+	min-height:120px;
+	border:none;
+	background:none;
+	resize:none;
+	padding: 0 5px 11px;
+	font-size: 15px;
+}
+.atten_summary textarea::-webkit-input-placeholder{
+    color:#999;
+}
+.atten_summary button{
+	float: left;
+	width:48px;
+	height:48px;
+	background:url(./images/work/home/btn_img.png) no-repeat;
+	background-size:100%;
+	border:none
+}
+
+.atten_cust{
+    border-top: 1px solid #cfd9dc;
+    border-bottom: 1px solid #cfd9dc;
+    padding: 8px 10px;
+    min-height: 32px;
+    line-height: 32px;
+}
+.atten_cust.disabled{
+	color:#999;
+}
+
+.atten_cust.noborder{
+    border-top:none;
+}
+
+.arrow {
+    float: right;
+    width: 14px;
+    height: 18px;
+    display: block;
+    margin-top: 8px;
+    background: url(./images/work/home/arrow01.png) no-repeat;
+    background-size: 14px 18px;
+}
+
+.scope{
+    display: inline-block;
+    width:32px;
+    height:32px;
+    vertical-align: middle;
+    margin-right: 6px;
+    background: url(./images/work/home/scope.png) no-repeat;
+    background-size: 32px 32px;
+}
+
+.disabled .sync{
+	background-image: url(./images/work/home/btn_img04.png);
+}
+
+.sync{
+    display: inline-block;
+    width:32px;
+    height:32px;
+    vertical-align: middle;
+    margin-right: 6px;
+    background: url(./images/work/home/btn_img03.png) no-repeat;
+    background-size: 32px 32px;
+}
+
+.checkbox.on {
+    background-image: url(./images/work/home/checkbox_sel.png);
+}
+
+.disabled .checkbox.on{
+	background-image: url(./images/work/home/checkbox_sel_disabled.png);
+}
+
+.checkbox {
+    float: right;
+    width: 20px;
+    height: 20px;
+    background: url(./images/work/home/checkbox.png) no-repeat;
+    background-size: 20px;
+	margin-top:7px;
+    margin-right: 3px;
+}
+
+.mid{
+    vertical-align: middle;
+}
+
+.images{
+	margin-left: 55px;
+}
+
+.tip{
+	margin-top: 10px;
+}
+.mr5{
+	color:#777;
+}
+.entrust{
+    background-image: url("./images/work/client/server/entrust.png")
+}
+.select{
+    position: absolute;
+    right: 2px;
+    top: 7px;
+    width: 16px;
+    height: 16px;
+    background: url(./images/work/client/server/arrow_down06.png) no-repeat right;
+    background-size: 16px;
+}
+
+@media screen and (max-width: 320px) { /*当屏幕尺寸小于375px时，应用下面的CSS样式*/
+    .atten_summary textarea{
+        min-height: 80px;
+    }
+}
+
+.themeblock{
+	padding-left: 38px;
+	position: relative;
+}
+.themetitle{
+	margin-right: 10px;float: left;color: #333;
+}
+.themeInputBlock{
+	margin-left: 72px;
+}
+.themeInput{
+	background: #f9f9f9;
+border: none;
+padding: 4px 25px 4px 0;
+border-radius: 4px;
+/* width: 100%; */
+text-align: center;
+line-height: 18px;
+font-size: 13px;
+height: 18px;
+color: #666;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+
+}
+.inputArrow{
+	background: url(./images/work/client/server/arrow_down06.png) no-repeat right;background-size: 100%;
+	width: 12px;
+	height: 12px;
+	display: block;
+	position: absolute;
+	right: 10px;
+	top: 6px;
+}

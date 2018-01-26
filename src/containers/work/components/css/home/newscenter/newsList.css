@@ -1,0 +1,10 @@
+.frame{
+    position:fixed;
+    left:0;
+    right:0;
+    top:64px;
+    bottom:0;
+    overflow: hidden;
+    background: #fff;
+    padding: 0 10px 0 10px;
+}

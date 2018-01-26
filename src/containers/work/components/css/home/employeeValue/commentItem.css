@@ -1,0 +1,72 @@
+
+.cm {
+	margin-left:0 !important;
+}
+.cm .rkleft_pic{
+	padding-left:0 !important
+}
+.cm .rkright_show {
+    margin-left: 1.2rem !important;
+}
+.rkltsingle{
+	margin-left:0.3rem;
+	overflow:hidden;
+	padding:0.2rem 0;
+	border-top:0.005rem solid #e5d8d6;
+}
+.rkleft_pic{
+	padding-left: 0.2rem;
+	position:relative;
+	float:left
+}
+.rkleft_pic img{
+	width:0.9rem;
+	height:0.9rem;
+	display:block;
+	border-radius:50%;
+}
+.rkleft_pic i{
+	width:0.48rem;
+	height:0.48rem;
+	background:#ffbd70;
+	border-radius:50%;
+	position:absolute;
+	font-size:0.36rem;
+	text-align:center;
+	line-height:0.48rem;
+	color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	top:-0.1rem;
+	left:0;
+	font-style:normal;
+}
+.rkright_show{
+	margin-left: 1.4rem;
+}
+.rkrt_name{
+	float:left;
+	margin-top: 0.05rem;
+}
+.rkrt_name .vl_red{
+	font-size:0.32rem;
+}
+.rkrt_num{
+	font-size:0.32rem;
+	float:right;
+	color:#e1624e;
+	margin-top: 0.05rem;
+}
+.rkrt_addr{
+	margin-top:-0.35rem;
+}
+.rkrt_time{
+	float:right;
+	color:#999;
+	font-size:0.24rem;
+}
+.rkrt_delet{
+	float:right;
+}
+.clear{
+	clear: both;
+}

@@ -1,0 +1,161 @@
+.top_icons{
+	margin-right: -1px;
+	background-color:#fff;
+}
+.top_icons:after{
+	content:"";
+	display: block;
+	clear: both;
+}
+.top_icons.open{
+}
+.top_icons a{
+	width:20%;
+	float:left;
+	display:block;
+	border-bottom:1px solid #eee;
+}
+.top_icons a.t_ico01{
+	background:url(./images/work/client/icon_qx01.png) no-repeat 50% 5px #fff;
+	background-size:30px;
+}
+.top_icons a.t_ico01.on{
+	background:url(./images/work/client/icon_qx01_on.png) no-repeat 50% 5px #fff;
+	background-size:30px;
+}
+.top_icons a.t_ico02{
+	background:url(./images/work/client/icon_qx02.png) no-repeat 50% 5px #fff;
+	background-size:30px;
+}
+.top_icons a.t_ico02.on{
+	background:url(./images/work/client/icon_qx02_on.png) no-repeat 50% 5px #fff;
+	background-size:30px;
+}
+.top_icons a.t_ico03{
+	background:url(./images/work/client/icon_qx03.png) no-repeat 50% 5px #fff;
+	background-size:30px;
+}
+.top_icons a.t_ico03.on{
+	background:url(./images/work/client/icon_qx03_on.png) no-repeat 50% 5px #fff;
+	background-size:30px;
+}
+.top_icons a.t_ico04{
+	background:url(./images/work/client/icon_qx04.png) no-repeat 50% 5px #fff;
+	background-size:30px;
+}
+.top_icons a.t_ico04.on{
+	background:url(./images/work/client/icon_qx04_on.png) no-repeat 50% 5px #fff;
+	background-size:30px;
+}
+.top_icons a.t_ico05{
+	background:url(./images/work/client/icon_qx05.png) no-repeat 50% 5px #fff;
+	background-size:30px;
+}
+.top_icons a.t_ico05_focus{
+	background:url(./images/work/client/arrow_up.png) no-repeat 50% 12px #fff;
+	background-size:20px;
+}
+.top_icons a.t_ico06{
+	background:url(./images/work/client/icon_qx06.png) no-repeat 50% 5px #fff;
+	background-size:30px;
+}
+.top_icons a.t_ico06.on{
+	background:url(./images/work/client/icon_qx06_on.png) no-repeat 50% 5px #fff;
+	background-size:30px;
+}
+.top_icons a.t_ico07{
+	background:url(./images/work/client/icon_qx07.png) no-repeat 50% 5px #fff;
+	background-size:30px;
+}
+.top_icons a.t_ico07.on{
+	background:url(./images/work/client/icon_qx07_on.png) no-repeat 50% 5px #fff;
+	background-size:30px;
+}
+.top_icons a.t_ico08{
+	background:url(./images/work/client/icon_qx08.png) no-repeat 50% 5px #fff;
+	background-size:30px;
+}
+.top_icons a.t_ico08.on{
+	background:url(./images/work/client/icon_qx08_on.png) no-repeat 50% 5px #fff;
+	background-size:30px;
+}
+.top_icons a.t_ico08{
+	background:url(./images/work/client/icon_qx08.png) no-repeat 50% 5px #fff;
+	background-size:30px;
+}
+.top_icons a.t_ico08.on{
+	background:url(./images/work/client/icon_qx08_on.png) no-repeat 50% 5px #fff;
+	background-size:30px;
+}
+.top_icons a.t_ico09{
+	background:url(./images/work/client/icon_qx09.png) no-repeat 50% 5px #fff;
+	background-size:30px;
+}
+.top_icons a.t_ico09.on{
+	background:url(./images/work/client/icon_qx09_on.png) no-repeat 50% 5px #fff;
+	background-size:30px;
+}
+.top_icons a.t_ico010{
+	background:url(./images/work/client/icon_qx010.png) no-repeat 50% 5px #fff;
+	background-size:30px;
+}
+.top_icons a.t_ico010.on{
+	background:url(./images/work/client/icon_qx010_on.png) no-repeat 50% 5px #fff;
+	background-size:30px;
+}
+.top_icons a.t_ico011{
+	background:url(./images/work/client/icon_qx011.png) no-repeat 50% 5px #fff;
+	background-size:30px;
+}
+.top_icons a.t_ico011.on{
+	background:url(./images/work/client/icon_qx011_on.png) no-repeat 50% 5px #fff;
+	background-size:30px;
+}
+.top_icons a.t_ico012{
+	background:url(./images/work/client/icon_qx012.png) no-repeat 50% 5px #fff;
+	background-size:30px;
+}
+.top_icons a.t_ico012.on{
+	background:url(./images/work/client/icon_qx012_on.png) no-repeat 50% 5px #fff;
+	background-size:30px;
+}
+.top_icons a.t_ico013{
+	background:url(./images/work/client/icon_qx013.png) no-repeat 50% 5px #fff;
+	background-size:30px;
+}
+.top_icons a.t_ico013.on{
+	background:url(./images/work/client/icon_qx013_on.png) no-repeat 50% 5px #fff;
+	background-size:30px;
+}
+.top_icons a.t_ico014{
+	background:url(./images/work/client/icon_qx014.png) no-repeat 50% 5px #fff;
+	background-size:30px;
+}
+.top_icons a.t_ico014.on{
+	background:url(./images/work/client/icon_qx014_on.png) no-repeat 50% 5px #fff;
+	background-size:30px;
+}
+.top_icons a.t_ico015{
+	background:url(./images/work/client/icon_qx015.png) no-repeat 50% 5px #fff;
+	background-size:30px;
+}
+.top_icons a.t_ico015.on{
+	background:url(./images/work/client/icon_qx015_on.png) no-repeat 50% 5px #fff;
+	background-size:30px;
+}
+.top_icons a.t_ico016{
+	background:url(./images/work/client/icon_qx016.png) no-repeat 50% 5px #fff;
+	background-size:30px;
+}
+.top_icons a.t_ico016.on{
+	background:url(./images/work/client/icon_qx016_on.png) no-repeat 50% 5px #fff;
+	background-size:30px;
+}
+.top_icons a span{
+    line-height: 16px;
+    display: block;
+    padding-top:36px;
+    padding-bottom: 10px;
+    border-right: 1px solid #eee;
+    text-align: center;
+}

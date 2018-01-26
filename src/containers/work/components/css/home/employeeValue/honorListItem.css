@@ -1,0 +1,74 @@
+.item{
+	position: relative;
+	overflow: hidden;
+	padding: 0.2rem 0.3rem;
+	border-bottom: 0.01rem solid #eee;
+}
+.hn_intro p{
+	margin-top:0.15rem;
+	overflow:hidden;
+}
+.hn_pic{
+	margin-right:0.3rem;
+	float:left;
+}
+.hn_pic img{
+	width:1rem;
+	height:1rem;
+	border-radius:50%;
+	border:0.06rem solid #f3f3f3;
+}
+.hn_title{
+	padding-top: 0.1rem;
+	font-size: .3rem;
+	float:left;
+	color:#e1624e;
+}
+.hn_time{
+	float:right;
+	font-size:0.24rem;
+	color:#999;
+}
+.ht_new{
+	display:block;
+	color:#fff;
+	width:0.38rem;
+	height:0.43rem;
+	line-height:0.43rem;
+	text-align:center;
+	font-size:0.2rem;
+	background:url(./images/work/home/value/vlicon08.png) no-repeat;
+	background-size:100%;
+	position:absolute;
+	top:0;
+	left:0.3rem;
+}
+.ht_name{
+	padding-top: 0.05rem;
+	font-size:0.33rem;
+	margin-right:0.1rem;
+}
+.hn_cp{
+	color:#666;
+}
+.hn_com{
+	background:url(./images/work/home/value/vlicon07.png) no-repeat left;
+	background-size:0.24rem;
+	padding-left:0.34rem;
+	font-size:0.24rem;
+	float:right;
+	margin-top:0.1rem;
+}
+.hn_flower{
+	background:url(./images/work/home/value/vlicon06_after.png) no-repeat left;
+	background-size:0.24rem;
+	padding-left:0.34rem;
+	font-size:0.24rem;
+	float:right;
+	margin-right:0.3rem;
+	margin-top:0.1rem;
+}
+.hn_flower.after{
+	background:url(./images/work/home/value/vlicon06_after.png) no-repeat left;
+	background-size:0.24rem;
+}

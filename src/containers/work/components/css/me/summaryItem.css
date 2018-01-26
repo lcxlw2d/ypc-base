@@ -1,0 +1,22 @@
+.item {
+    overflow: hidden;
+    padding-bottom: 5px;
+    margin-left: -1px;
+    border-top: 1px solid #eee;
+    border-left: 1px solid #eee;
+}
+.text{
+    width: 100%;
+    display: block;
+    line-height: 21px;
+    text-align: center;
+    font-size: 12px;
+}
+.text.canClick{
+    text-decoration: underline;
+}
+.color{
+    font-family: impact;
+    font-size: 18px;
+    margin-top: 10px;
+}

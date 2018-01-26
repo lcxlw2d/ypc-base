@@ -1,0 +1,91 @@
+.bb_list{
+	margin-right:-1px;
+}
+.bb_list:after{
+    content: "";
+    display: block;
+    clear:both;
+}
+.itemBox{
+	width:50%;
+	float:left;
+	border-top:1px solid #eee;
+	background-repeat: no-repeat;
+	background-position: 15px 50%;
+	background-size: 33px;
+}
+.itemBox.touch{
+	background-color:#eee;
+}
+.dot{
+	position: absolute;
+	top: 7px;
+    left: -13px;
+    height: 8px;
+    width: 8px;
+	border-radius: 50%;
+	background-color: #f00;
+}
+.margin{
+	background-image:url(./images/work/home/icon_bb01.png);
+}
+.golden{
+	background-image:url(./images/work/home/icon_bb02.png);
+}
+.time{
+	background-image:url(./images/work/home/icon_bb03.png);
+}
+.newstock{
+	background-image:url(./images/work/home/icon_bb09.png);
+}
+.productdeadline{
+	background-image:url(./images/work/home/icon_bb05.png);
+}
+.footprint{
+	background-image:url(./images/work/home/icon_bb06.png);
+}
+.tracking{
+	background-image:url(./images/work/home/icon_bb07.png);
+}
+.server{
+	background-image:url(./images/work/home/icon_bb08.png);
+}
+.marketingActivity{
+	background-image: url(./images/work/home/icon_marketingActivity.png)
+}
+.bb_innerbox{
+	position: relative;
+  	padding:12px 0;
+	margin-left:60px;
+	border-right:1px solid #eee;
+}
+.text{
+	font-size:15px;
+	margin-bottom:5px;
+}
+.tip{
+	font-size:12px;
+}
+.orange{
+	color:#ffa82a
+}
+.red{
+	color:#ff7373
+}
+.blue{
+	color:#5fa2ff
+}
+.purpple{
+	color:#a87ec3
+}
+
+/*iphone5等小屏幕兼容*/
+@media only screen and (max-width:320px){
+	.itemBox{
+		background-position: 10px 50%;
+		background-size: 32px;
+	}
+	.bb_innerbox{
+		margin-left:50px;
+	}
+}

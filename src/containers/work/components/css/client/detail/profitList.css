@@ -1,0 +1,65 @@
+.frame{
+    position:fixed;
+    left:0;
+    right:0;
+    top:152px;
+    bottom:59px;
+}
+.tr th{
+    padding: 10px 0 10px 9px;
+    font-weight: 100;
+    border-left: 1px solid #ddd;
+    vertical-align: middle;
+    border-bottom: 1px solid #ddd;
+    color:#333;
+    white-space: nowrap;
+}
+.tr td{
+    padding: 13px 0 13px 9px;
+    line-height:20px;
+    vertical-align: middle;
+    word-break: break-all;
+}
+.follow {
+    background: url(./images/work/client/follow.png) no-repeat;
+    background-size: 18px;
+    width: 18px;
+    height: 18px;
+    display: block;
+}
+.follow.on {
+    background-image: url(./images/work/client/follow_on.png);
+}
+.textborder {
+    border: 1px solid #ff5555;
+    border-radius: 3px;
+    color: #ff5555;
+    padding: 0 6px 2px 6px;
+}
+.dataRow:nth-child(2n){
+    background-color:#f9f9f9
+}
+.tableList{
+    position: absolute;
+    left: 0;
+    top: 35px;
+    right: 0;
+    bottom: 0;
+}
+.mid{
+    vertical-align: middle;
+}
+.icon_in,.icon_out{
+    display: inline-block;
+    width:16px;
+    height: 16px;
+    margin-left:3px;
+    background:center no-repeat;
+    background-size:16px;
+}
+.icon_in{
+    background-image:url('images/work/client/icon_in.png');
+}
+.icon_out{
+    background-image:url('images/work/client/icon_out.png');
+}

@@ -1,0 +1,49 @@
+.button{
+    position:fixed;
+    height:40px;
+    left:15px;
+    right:15px;
+    bottom:5px;
+    line-height: 40px;
+    border:1px solid #666;
+    color:#666;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.button.selected{
+    border-color:#3492e9;
+    color:#3492e9;
+}
+
+.btn_mycus_box {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 5px;
+    background: #fff;
+}
+.btn_mycus {
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    text-align: center;
+    margin: 0 15px;
+    box-shadow: 3px 3px 0 rgba(0,0,0,0.05);
+    background: #f5f5f5;
+}
+.btn_mycus.selected{
+    border-color:#ff7373;
+    background: #ffeeee;
+}
+.btn_mycus a{
+	background:url(./images/work/client/record/icon_recording_disabled.png) no-repeat left;
+	background-size:18px;
+	padding-left:28px;
+	color:#999;
+}
+.btn_mycus.selected a{
+	background-image:url(./images/work/client/record/icon_recording.png);
+	color:#ff5555;
+}

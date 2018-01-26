@@ -1,0 +1,29 @@
+.ftuserpic{
+	float: left;
+}
+.ftuserpic img{
+    width:0.8rem;
+    height:0.8rem;
+    border-radius: 50%;
+}
+.ftcomtext{
+    margin-left: 1.2rem
+}
+.ftcmint{
+	overflow:hidden;
+	margin-bottom:0.2rem;
+}
+.ftcm_name{
+	font-size:0.32rem;
+	color:#3492e9;
+	float:left;
+}
+.ftcm_addr{
+	line-height: 0.36rem;
+}
+.ftcm_time{
+	line-height:0.32rem;
+	float:right;
+	color:#999;
+	font-size:0.24rem;
+}
